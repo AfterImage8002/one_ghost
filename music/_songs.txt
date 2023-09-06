@@ -12,6 +12,7 @@ music = {
 music = {
 	song = "PV_theme"
 	chance = {
+		modifier = {
 			factor = 0.5
 		}		
 	}
