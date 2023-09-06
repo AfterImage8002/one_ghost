@@ -1,0 +1,47 @@
+
+state={
+	id=942
+	name="STATE_942"
+	resources={
+		chromium=3.000
+	}
+
+	history={
+		owner = CHO
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 1
+			4126 = {
+				naval_base = 3
+
+			}
+			13265 = {
+				naval_base = 3
+
+			}
+
+		}
+		
+		victory_points = {
+			11977 20 
+		}
+		victory_points = {
+			13265 5 
+		}
+		victory_points = {
+			4126 5 
+		}
+		add_core_of = KOR
+		add_core_of = CHO
+	}
+
+	provinces={
+		4126 11977 13264 13265 
+	}
+	manpower=1884105
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

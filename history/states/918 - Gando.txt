@@ -1,0 +1,25 @@
+
+state={
+	id=918
+	name="STATE_918"
+
+	history={
+		owner = FNG
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ZLC
+		add_core_of = CHI
+		add_core_of = FNG
+
+	}
+
+	provinces={
+		783 944 973 3929 3944 6806 6964 9897 11893 
+	}
+	manpower=31721
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

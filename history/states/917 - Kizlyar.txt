@@ -1,0 +1,22 @@
+
+state = {
+    id = 917
+    name = "STATE_917"
+    manpower = 131721
+    
+    state_category = pastoral
+
+    history = {
+		owner = KUB
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 6730 1 }
+		add_core_of = KUB
+		add_core_of = DAG
+	}
+
+    provinces = {
+        11632 712 728 6748 700 683 6730 
+    }
+}

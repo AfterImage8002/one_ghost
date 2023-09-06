@@ -1,0 +1,19 @@
+state= {
+	id=922
+	name="STATE_922"
+	manpower = 32947
+	
+	state_category = rural
+
+	history= {
+		owner = GSC
+		
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = GSC
+	}
+	provinces={1778 2028 5076 7971 12596 12820}
+
+	local_supplies=0.0 
+}

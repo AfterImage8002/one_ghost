@@ -1,0 +1,22 @@
+state={
+	id=976
+	name="STATE_976"
+	provinces={
+		4184 4188 
+	}
+	history={
+		owner = JAP
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = JAP
+		victory_points = {
+			4188 5 
+		}
+	}
+	manpower=550
+	state_category=large_city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

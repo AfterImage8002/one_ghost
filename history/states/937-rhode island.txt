@@ -1,0 +1,28 @@
+state={
+	id=937
+	name="STATE_937"
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 4
+			air_base = 10
+			9832 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = USA
+		victory_points = {
+			9832 1 
+		}
+	}
+	provinces={
+		9832 11830 
+	}
+	manpower=687497
+	state_category=metropolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

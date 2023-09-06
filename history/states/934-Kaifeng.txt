@@ -1,0 +1,20 @@
+state={
+	id=934
+	name="STATE_934"
+	state_category = large_town
+	provinces={
+		4010 4066 7085 7126 7129 7656 9958 9995 10098 10364 
+	}
+	history = {
+		owner = ZLC
+		add_core_of = ZLC
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+	}
+	manpower=14366353
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

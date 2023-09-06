@@ -1,0 +1,29 @@
+
+state = {
+    id = 920
+    name = "STATE_920"
+    manpower = 2335178
+    
+    state_category = city
+
+    history = {
+		owner = ZLC
+		add_core_of = ZLC
+		add_core_of = CHI
+		set_demilitarized_zone = yes
+		victory_points = {
+			10068 5
+		}
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+			10068 = {
+				naval_base = 2
+			}
+		}
+	}
+
+    provinces = {
+		10068
+    }
+}

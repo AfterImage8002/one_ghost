@@ -1,0 +1,26 @@
+
+state={
+	id=995
+	name="STATE_995"
+
+	history={
+		owner = JAP
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		add_core_of = JAP
+		victory_points = {
+			4179 2 
+		}
+
+	}
+
+	provinces={
+		4179 7046 13308 
+	}
+	manpower=1304525
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=945
+	name="STATE_945"
+	resources={
+		steel=51.000
+		tungsten=65.000
+	}
+
+	history={
+		owner = CHO
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			7021 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			13271 2
+		}
+		victory_points = {
+			9936 2
+		}
+		add_core_of = CHO
+	}
+
+	provinces={
+		1148 4004 7021 9936 9981 11912 11958 12011 13260 13271 
+	}
+	manpower=1807728
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

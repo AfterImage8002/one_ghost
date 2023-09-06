@@ -1,0 +1,18 @@
+state={
+	id=967
+	name="STATE_967"
+	history={
+		owner = AFG
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = AFG
+	}
+	provinces={
+		7448 7584 7916 7984 10476 10852 10896 12248 12877 
+	}
+	state_category = town
+	manpower=675000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

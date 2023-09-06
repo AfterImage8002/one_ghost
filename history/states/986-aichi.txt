@@ -1,0 +1,24 @@
+
+state={
+	id=986
+	name="STATE_986"
+
+	history={
+		owner = JAP
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			dockyard = 2
+		}
+		add_core_of = JAP
+
+	}
+
+	provinces={
+		10125 13312 
+	}
+	manpower=2862701
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

@@ -1,0 +1,21 @@
+state={
+	id=1012
+	name="STATE_1012"
+	history={
+		owner = FNG
+		add_core_of = FNG
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
+	}
+	provinces={
+		946 7523 7591 7652 9782 9913 9928 10433 11864 12412 
+	}
+	manpower=432510
+	state_category=large_town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

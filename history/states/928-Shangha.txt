@@ -1,0 +1,19 @@
+state={
+	id=928
+	name="STATE_928"
+	state_category = megalopolis
+	provinces={
+		4042 7014 10034 12052 12076 
+	}
+	history = {
+		owner = CHI
+		set_demilitarized_zone = yes
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+		}
+	}
+	manpower=5482982
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

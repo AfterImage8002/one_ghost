@@ -1,0 +1,30 @@
+state={
+	id=913
+	name="STATE_913"
+	manpower = 180450
+	resources={
+		chromium= 3
+		steel = 3
+	}
+	
+	state_category = rural
+
+	history={
+		owner = TUR
+		
+		victory_points = {
+			904 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = TUR
+	}
+
+	provinces={
+		890 904 3905 3919 6871 11866 11883
+	}
+
+	local_supplies=0.0 
+}

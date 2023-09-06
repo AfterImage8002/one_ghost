@@ -1,0 +1,25 @@
+
+state={
+	id=954
+	name="STATE_954"
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+			anti_air_building = 2
+			radar_station = 1
+			air_base = 4
+		}
+		add_core_of = ENG
+
+	}
+	provinces={
+		3501 11333 11446 13070 
+	}
+	manpower=134800
+	state_category=large_city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

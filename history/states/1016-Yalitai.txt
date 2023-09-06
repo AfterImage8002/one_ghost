@@ -1,0 +1,23 @@
+state={
+	id=1016
+	name="STATE_1016"
+	history={
+		owner = ETU
+		add_core_of = SIK
+		add_core_of = ETU
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			4973 1
+		}
+	}
+	provinces={
+		1766 2015 4828 5087 7949 12119 
+	}
+	manpower=408000
+	state_category=large_town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

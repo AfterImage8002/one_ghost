@@ -1,0 +1,39 @@
+
+state={
+	id=527
+	name="STATE_527"
+	resources={
+		steel=9.000
+	}
+
+	history={
+		owner = CHO
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 5
+			7171 = {
+				bunker = 5
+
+			}
+			4052 = {
+				naval_base = 5
+			}
+
+		}
+		victory_points = {
+			7171 30 
+		}
+		add_core_of = CHO
+
+	}
+
+	provinces={
+		3912 4052 7171 9790 10083 11770 
+	}
+	manpower=2817806
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

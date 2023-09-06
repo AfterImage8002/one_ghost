@@ -1,0 +1,31 @@
+
+state={
+	id=925
+	name="STATE_925"
+
+	history={
+		owner = ZLC
+		add_core_of = ZLC
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			4205 = {
+				naval_base = 2
+				coastal_bunker = 1
+				bunker = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1104 1200 4186 4205 7105 10018 
+	}
+	manpower=12374200
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=4.000
+}

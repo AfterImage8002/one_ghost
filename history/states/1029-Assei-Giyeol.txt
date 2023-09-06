@@ -1,0 +1,19 @@
+state={
+	id=1029
+	name="STATE_1029"
+	provinces={
+		4914 4964 8037 12899 
+	}
+	history={
+		owner = XSM
+		add_core_of = XSM
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 4
+		}
+	}
+	manpower=837000
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

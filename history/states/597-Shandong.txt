@@ -1,0 +1,33 @@
+
+state={
+	id=597
+	name="STATE_597"
+
+	history={
+		owner = ZLC
+		add_core_of = ZLC
+		add_core_of = CHI
+		victory_points = {
+			1069 3 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		1938.10.25 = {
+			controller = JAP
+
+		}
+
+	}
+
+	provinces={
+		1124 1154 1184 4071 4157 4181 7055 7089 9971 12074 
+	}
+	manpower=38373200
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=4.000
+}

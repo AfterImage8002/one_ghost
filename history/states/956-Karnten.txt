@@ -1,0 +1,20 @@
+state={
+	id=956
+	name="STATE_956"
+	provinces={
+		668 671 3673 3674 6673 11612 
+	}
+	state_category = town
+	history = {
+		owner = AUS
+			buildings = {
+				infrastructure = 3
+				arms_factory = 1
+				industrial_complex = 3
+			}
+			add_core_of = AUS
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

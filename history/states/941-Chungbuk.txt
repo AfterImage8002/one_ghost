@@ -1,0 +1,31 @@
+
+state={
+	id=941
+	name="STATE_941"
+	resources={
+		steel=3.000
+	}
+
+	history={
+		owner = CHO
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		victory_points = {
+			13263 10 
+		}
+		add_core_of = CHO
+		add_core_of = KOR
+	}
+
+	provinces={
+		1100 13261 13262 
+	}
+	manpower=1284105
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

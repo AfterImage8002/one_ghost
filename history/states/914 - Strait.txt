@@ -1,0 +1,21 @@
+state= {
+	id=914
+	name="STATE_914"
+	manpower = 101947
+	
+	state_category = rural
+
+	history= {
+		owner = STR
+		
+		buildings = {
+			infrastructure = 2	
+		}
+		add_core_of = GRE
+		add_core_of = STR
+	}
+	provinces=
+	{ 849 3879 6895	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,30 @@
+
+state= {
+	id=341
+	name="STATE_341"
+	manpower = 157947
+	resources={
+
+	}
+	
+	state_category = town
+
+	history= {
+		owner = GRE
+		victory_points = {
+			11842 5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			
+		}
+		add_core_of = GRE
+		add_claim_by = BUL
+
+	}
+	provinces=
+	{ 922  3893  11842	}
+
+	local_supplies=0.0 
+}

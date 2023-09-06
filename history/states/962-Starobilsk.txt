@@ -1,0 +1,19 @@
+state={
+	id=962
+	name="STATE_962"
+	history={
+		owner = UKS
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = UKS
+	}
+	provinces={
+		523 547 570 3409 3491 6519 6554 9476 9531 11487 11513 11541 
+	}
+	manpower=1234567
+	state_category=city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

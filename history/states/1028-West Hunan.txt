@@ -1,0 +1,21 @@
+state={
+	id=1028
+	name="STATE_1028"
+	history={
+		owner = HNC
+		add_core_of = HNC
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 4
+
+		}
+
+	}
+	provinces={
+		1448 1640 7097 9982 9999 12350 13143 
+	}
+	manpower=5230000
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

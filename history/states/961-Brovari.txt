@@ -1,0 +1,23 @@
+
+state={
+	id=961
+	name="STATE_961"
+	history={
+		owner = UKS
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = UKS
+		victory_points = {
+			11557 25
+		}
+	}
+	provinces={
+		489 582 9543 11530 11557 
+	}
+	state_category=rural
+	manpower=1234567
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

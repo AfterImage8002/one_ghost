@@ -1,0 +1,24 @@
+
+state={
+	id=932
+	name="STATE_932"
+
+	history={
+		owner = HNC
+		add_core_of = HNC
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		1036 4619 4631 
+	}
+	manpower=5230000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

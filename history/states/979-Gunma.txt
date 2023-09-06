@@ -1,0 +1,23 @@
+
+state={
+	id=979
+	name="STATE_979"
+
+	history={
+		owner = JAP
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = JAP
+
+	}
+
+	provinces={
+		4000 11908 
+	}
+	manpower=1186080
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

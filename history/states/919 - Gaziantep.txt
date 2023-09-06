@@ -1,0 +1,24 @@
+
+state = {
+    id = 919
+    name = "STATE_919"
+    manpower = 421781
+    
+    state_category = town
+
+    history = {
+		victory_points = {
+			9893 15
+		}
+		owner = SYR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TUR
+		add_core_of = SYR
+	}
+
+    provinces = {
+        9893 3889 806
+    }
+}

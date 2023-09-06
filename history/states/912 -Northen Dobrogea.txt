@@ -1,0 +1,27 @@
+
+state={
+	id=912
+	name="STATE_912"
+	manpower = 608000
+	
+	state_category = rural
+
+	history={
+		victory_points = {
+			11597 1
+		}
+		victory_points = { 657 3 }
+		owner = ROM
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		add_core_of = ROM
+		add_claim_by = BUL
+	}
+	provinces={
+		657  9635 3076 687 
+	}
+
+	local_supplies=1.0 
+}

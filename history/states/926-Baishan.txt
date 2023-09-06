@@ -1,0 +1,19 @@
+
+state={
+	id=926
+	name="STATE_926"
+	state_category = town
+	provinces={
+		800 861 887 927 945 3888 3947 3949 6868 6905 9759 9803 9841 9848 9866 9883 11781 11823 11850 11862 
+	}
+	history = {
+		owner = FNG
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	manpower=3242213
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
