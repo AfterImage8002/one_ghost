@@ -8,7 +8,7 @@ state={
 	state_category = large_city
 	history={
 		set_demilitarized_zone = yes
-		owner = SGE
+		owner = GER
 		victory_points = {
 			9517 20
 		}
@@ -31,7 +31,7 @@ state={
 			air_base = 3
 
 		}
-		add_core_of = BAY
+		add_core_of = GER
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 11
