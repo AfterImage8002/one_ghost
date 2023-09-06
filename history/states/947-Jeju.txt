@@ -6,7 +6,7 @@ state={
 	}
 	local_supplies=0.0 
 	history={
-		owner = CHO
+		owner = KOR
 		buildings = {
 			infrastructure = 1
 			1177 = {
@@ -16,7 +16,7 @@ state={
 		victory_points = {
 			1177 5
 		}
-		add_core_of = CHO
+		add_core_of = KOR
 	}
 	manpower=78000
 	state_category=wasteland

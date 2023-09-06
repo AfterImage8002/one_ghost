@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = CHO
+		owner = KOR
 		buildings = {
 			dockyard = 2
 			infrastructure = 3
@@ -31,7 +31,6 @@ state={
 			3981 10 
 		}
 		add_core_of = KOR
-		add_core_of = CHO
 	}
 
 	provinces={

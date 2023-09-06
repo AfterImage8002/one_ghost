@@ -4,7 +4,7 @@ state={
 	name="STATE_952"
 
 	history={
-		owner = CHO
+		owner = KOR
 		buildings = {
 			infrastructure = 3
 			11835 = {
@@ -15,7 +15,7 @@ state={
 			air_base = 2
 
 		}
-		add_core_of = CHO
+		add_core_of = KOR
 		victory_points = {
 			11775 1
 		}

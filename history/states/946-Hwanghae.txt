@@ -4,7 +4,7 @@ state={
 	name="STATE_946"
 
 	history={
-		owner = CHO
+		owner = KOR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 3
@@ -24,7 +24,7 @@ state={
 		victory_points = {
 			1003 3
 		}
-		add_core_of = CHO
+		add_core_of = KOR
 	}
 
 	provinces={
