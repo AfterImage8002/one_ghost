@@ -7,7 +7,8 @@ state={
 		800 861 887 927 945 3888 3947 3949 6868 6905 9759 9803 9841 9848 9866 9883 11781 11823 11850 11862 
 	}
 	history = {
-		owner = FNG
+		owner = KOR
+		add_core_of = KOR
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
