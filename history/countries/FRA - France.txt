@@ -1049,3 +1049,10 @@ if = {
 		}
 	}
 }
+create_faction = faction_france
+add_to_faction = BRI
+add_to_faction = OCC
+add_to_faction = NAV
+add_to_faction = CAT
+add_to_faction = WGR
+add_to_faction = HOL

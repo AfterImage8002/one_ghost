@@ -1,0 +1,9 @@
+capital = 7
+set_politics = {
+	ruling_party = socialism
+	elections_allowed = no
+}
+set_popularities = {
+	socialism = 33
+	modified_capitalism= 66
+}
