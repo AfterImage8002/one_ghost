@@ -14,6 +14,42 @@ if = {
 	}
 	set_oob = "FRA_1936_nsb"
 }
+set_autonomy = {
+    target = BRI
+    autonomy_state = autonomy_integrated_puppet
+}
+set_autonomy = {
+    target = OCC
+    autonomy_state = autonomy_integrated_puppet
+}
+set_autonomy = {
+    target = CAT
+    autonomy_state = autonomy_integrated_puppet
+}
+set_autonomy = {
+    target = NAV
+    autonomy_state = autonomy_integrated_puppet
+}
+set_autonomy = {
+    target = HOL
+    autonomy_state = autonomy_integrated_puppet
+}
+set_autonomy = {
+    target = WGR
+    autonomy_state = autonomy_integrated_puppet
+}
+set_autonomy = {
+    target = WUR
+    autonomy_state = autonomy_integrated_puppet
+}
+set_autonomy = {
+    target = BAY
+    autonomy_state = autonomy_integrated_puppet
+}
+set_autonomy = {
+    target = HAN
+    autonomy_state = autonomy_integrated_puppet
+}
 
 starting_train_buffer = 2
 
