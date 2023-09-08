@@ -1,0 +1,8 @@
+capital = 137
+set_politics = {
+	ruling_party = authoritarianism
+}
+set_popularities = {
+	authoritarianism = 55
+	socialism = 45
+}
