@@ -50,6 +50,10 @@ set_autonomy = {
     target = HAN
     autonomy_state = autonomy_integrated_puppet
 }
+set_autonomy = {
+    target = SWI
+    autonomy_state = autonomy_integrated_puppet
+}
 
 starting_train_buffer = 2
 
