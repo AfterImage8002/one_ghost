@@ -377,15 +377,11 @@ create_import = {
 }
 
 set_politics = {
-	ruling_party = fascism
-	last_election = "1933.3.5"
-	election_frequency = 48
-	elections_allowed = no
+	ruling_party = authoritarianism
 }
 set_popularities = {
-	democratic = 20
-	fascism = 60
-	communism = 20
+	authoritarianism = 55
+	socialism = 45
 }
 
 create_faction = Axis
