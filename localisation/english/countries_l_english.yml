@@ -250,6 +250,7 @@
  TUR_feudalism_DEF:0 "오스만 제국"
  TUR_authoritarianism:0 "터키 제국"
  TUR_authoritarianism_DEF:0 "터키 제국"
- TUR:0 "러시아 흑해함대"
- TUR_DEF:0 "러시아 흑해함대"
- TUR_ADJ:0 "러시아 흑해함대"
+
+ BSF:0 "러시아 흑해함대"
+ BSF_DEF:0 "러시아 흑해함대"
+ BSF_ADJ:0 "러시아 흑해함대"
