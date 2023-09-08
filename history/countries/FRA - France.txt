@@ -1056,3 +1056,6 @@ add_to_faction = NAV
 add_to_faction = CAT
 add_to_faction = WGR
 add_to_faction = HOL
+add_to_faction = ALG
+add_to_faction = TUN
+add_to_faction = MOR
