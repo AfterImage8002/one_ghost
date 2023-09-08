@@ -6,13 +6,13 @@ state= {
 	state_category = town
 
 	history= {
-		owner = SWI
+		owner = GER
 		
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
 		}
-		add_core_of = SWI
+		add_core_of = GER
 		victory_points = { 663 10 }
 	}
 	provinces={663 11623 11604}

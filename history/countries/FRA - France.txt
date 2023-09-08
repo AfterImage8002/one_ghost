@@ -1059,3 +1059,4 @@ add_to_faction = HOL
 add_to_faction = ALG
 add_to_faction = TUN
 add_to_faction = MOR
+add_to_faction = SWI
