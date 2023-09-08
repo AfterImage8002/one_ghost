@@ -12,7 +12,7 @@ state={
 		buildings = {
 			dockyard = 2
 			infrastructure = 3
-			industrial_complex = 1
+			industrial_complex = 2
 			848 = {
 				naval_base = 6
 
@@ -21,7 +21,18 @@ state={
 				naval_base = 5
 
 			}
+			6944 = {
+				naval_base = 3
 
+			}
+			6822 = {
+				naval_base = 3
+
+			}
+
+		}
+		victory_points = {
+			6944 1
 		}
 		victory_points = {
 			6822 3 
@@ -30,13 +41,14 @@ state={
 		victory_points = {
 			3981 10 
 		}
+		
 		add_core_of = KOR
 	}
 
 	provinces={
-		848 852 3803 3852 3904 3981 6922 6928 9899 11878 
+		898 959 3860 6822 6944 848 852 3803 3852 3904 3981 6922 6928 9899 11878 
 	}
-	manpower=636105
+	manpower=1179794
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

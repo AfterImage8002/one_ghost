@@ -10,17 +10,25 @@ state={
 		owner = KOR
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 2
-			arms_factory = 1
-			air_base = 5
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 7
 			7171 = {
 				bunker = 5
-
 			}
 			4052 = {
 				naval_base = 5
 			}
+			11835 = {
+				naval_base = 3
+			}
 
+		}
+		victory_points = {
+			11775 1
+		}
+		victory_points = {
+			11835 3
 		}
 		victory_points = {
 			7171 30 
@@ -30,9 +38,9 @@ state={
 	}
 
 	provinces={
-		3912 4052 7171 9790 10083 11770 
+		906 912 978 6963 9795 9918 11775 11828 11835 11896 3912 4052 7171 9790 10083 11770 
 	}
-	manpower=2817806
+	manpower=4156067
 	buildings_max_level_factor=1.000
 	state_category=metropolis
 	local_supplies=0.000
