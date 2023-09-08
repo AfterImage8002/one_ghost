@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = SGE
+		owner = BAY
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
@@ -16,12 +16,6 @@ state={
 			11544 10 
 		}
 		add_core_of = BAY
-
-		1939.1.1 = {
-			buildings = {
-				air_base = 3
-			}
-		}
 	}
 
 	provinces={
