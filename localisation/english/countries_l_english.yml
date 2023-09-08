@@ -1,4 +1,27 @@
 ﻿ l_english:
+
+ PRE:0 "프로이센"
+ PRE_DEF:0 "프로이센"
+ PRE_ADJ:0 "프로이센"
+ PRE_anarchism:0 "게르만 지역방위위원회"
+ PRE_anarchism_DEF:0 "게르만 지역방위위원회"
+ PRE_socialism:0 "프로이센 사회주의 공화국"
+ PRE_socialism_DEF:0 "프로이센 사회주의 공화국"
+ PRE_bolsheviks:0 "프로이센 인민공화국"
+ PRE_bolsheviks_DEF:0 "프로이센 인민공화국"
+ PRE_left_nationalism:0 "프로이센 인민공화국"
+ PRE_left_nationalism_DEF:0 "프로이센 인민공화국"
+ PRE_modified_capitalism:0 "프로이센 공화국"
+ PRE_modified_capitalism_DEF:0 "프로이센 공화국"
+ PRE_let_do:0 "프로이센 공화국"
+ PRE_let_do_DEF:0 "프로이센 공화국"
+ PRE_feudalism:0 "프로이센 왕국"
+ PRE_feudalism_DEF:0 "프로이센 왕국"
+ PRE_authoritarianism:0 "프로이센 왕국"
+ PRE_authoritarianism_DEF:0 "프로이센 왕국"
+
+ #tlqkf 누구짓이야
+
  FRA:0 "프랑스"
  FRA_DEF:0 "프랑스"
  FRA_ADJ:0 "프랑스"
