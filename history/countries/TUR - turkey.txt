@@ -1,0 +1,10 @@
+capital = 49
+recruit_character = TUR_mustafa_kemal_ataturk
+set_politics = {
+	ruling_party = left_nationalism
+}
+set_popularities = {
+	left_nationalism = 55
+	feudalism = 30
+	bolsheviks = 15
+}
