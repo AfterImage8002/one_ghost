@@ -1,18 +1,18 @@
 state={
-	id=1029
-	name="STATE_1029"
-	provinces={
-		4914 4964 8037 12899 
-	}
+	id=942
+	name="STATE_942"
 	history={
-		owner = XSM
-		add_core_of = XSM
+		owner = RAJ
+		add_core_of = RAJ
 		buildings = {
 			industrial_complex = 2
 			infrastructure = 4
 		}
 	}
-	manpower=837000
+	provinces={
+		1996 10810 12730 
+	}
+	manpower=230000
 	state_category=rural
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
