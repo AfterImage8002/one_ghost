@@ -1,0 +1,11 @@
+capital = 41
+set_politics = {
+	ruling_party = feudalism
+}
+set_popularities = {
+	feudalism = 33
+	authoritarianism = 32
+	anarchism = 6
+	bolsheviks = 9
+	let_do = 20
+}
