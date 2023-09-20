@@ -1,2 +1,4 @@
 KOS	= "countries/Kosovo.txt"
 BSF = "countries/Black_sea_fleet.txt"
+SPA = "countries/Spain.txt"
+SPB = "countries/Spain.txt"
