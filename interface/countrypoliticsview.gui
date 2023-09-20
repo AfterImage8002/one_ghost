@@ -130,7 +130,7 @@ guiTypes = {
 				position = { x = 100 y = -49 }
 				font = "hoi_18mbs"
 				text = "faction"
-				maxWidth = 195
+				maxWidth = 115
 				maxHeight = 20
 				multiline = no
 				format = left

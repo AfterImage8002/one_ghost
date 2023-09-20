@@ -334,9 +334,9 @@
  AUS_authoritarianism:0 "오스트리아국"
  AUS_authoritarianism_DEF:0 "오스트리아국"
 
- SCO:0 "스코틀랜드"
- SCO_DEF:0 "스코틀랜드"
- SCO_ADJ:0 "스코틀랜드"
+ SCO:0 "연합왕국"
+ SCO_DEF:0 "연합왕국"
+ SCO_ADJ:0 "연합왕국"
  SCO_anarchism:0 "스코틀랜드 자유지구"
  SCO_anarchism_DEF:0 "스코틀랜드 자유지구"
  SCO_socialism:0 "스코틀랜드 혁명공화국"
@@ -477,8 +477,8 @@
  SPA:0 "스페인"
  SPA_DEF:0 "스페인"
  SPA_ADJ:0 "스페인"
- SPA_anarchism:0 "이베리아 아나키스트 연방"
- SPA_anarchism_DEF:0 "이베리아 아나키스트 연방"
+ SPA_anarchism:0 "이베리아 아나키스트 연맹"
+ SPA_anarchism_DEF:0 "이베리아 아나키스트 연맹"
  SPA_socialism:0 "전국노동총연맹"
  SPA_socialism_DEF:0 "전국노동총연맹"
  SPA_bolsheviks:0 "스페인 인민공화국"
@@ -517,7 +517,7 @@
 
 
 
-
+ ITA:0 "이탈리아 사회공화국"
  BSF:0 "연방 흑해함대"
  BSF_DEF:0 "연방 흑해함대"
  BSF_ADJ:0 "연방 흑해함대"
