@@ -1,8 +1,8 @@
 #reload countrycolors
 
 BSF = {
-	color = RGB {  51 58 0}
-	color_ui = RGB { 51 58 0}
+	color = RGB {  70 28 0}
+	color_ui = RGB { 70 28 0}
 }
 #바닐라
 GER = {
@@ -35,11 +35,11 @@ BEL = { color 	 = rgb { 193 171 8  }
 HOL = {	color = rgb { 203 138 74 }
 		color_ui = rgb { 255 179 96 }
 }
-CZE = {	color = rgb { 54 167 156 }
-		color_ui = rgb { 70 217 203 }
+CZE = {	color = rgb { 205 20 70 }
+		color_ui = rgb { 205 20 70 }
 }
 POL = {
-	color = rgb { 214 102 139 }
+	color = rgb { 196 82 119 }
 	color_ui = rgb { 255 120 138 }
 }
 AUS = {
@@ -47,11 +47,11 @@ AUS = {
 	color_ui = rgb { 255 255 255 }
 }
 LIT = {
-	color = rgb { 219 219 119 }
-	color_ui = rgb { 255 255 155 }
+	color = rgb { 175 33 54 }
+	color_ui = rgb { 203 37 61 }
 }
 EST = {
-	color = rgb { 50 135 175 }
+	color = rgb { 150 0 30 }
 	color_ui = rgb { 99 204 254 }
 }
 LAT = {
@@ -115,8 +115,8 @@ IRE = {
 	color_ui = rgb { 104 207 117 }
 }
 HUN = {
-	color = rgb { 249 126 98 }
-	color_ui = rgb { 255 164 127 }
+	color = rgb { 200 67 58 }
+	color_ui = rgb { 255 100 100 }
 }
 AFG = {
 	color = rgb { 64 160 167 }
@@ -374,8 +374,8 @@ ICE = {
 }
 
 UKR = {
-	color = rgb { 0  80  230 }
-	color_ui = rgb { 0  80  230 }	
+	color = rgb { 0  0  0 }
+	color_ui = rgb { 0  0  0 }	
 }
 
 AZR = {
@@ -689,8 +689,8 @@ MEK = {
 	color_ui = rgb { 186 245 86 }
 }
 PRE = {
-	color = rgb { 160  160  160 }
-	color_ui = rgb { 160  160  160 }
+	color = rgb { 110  40  30 }
+	color_ui = rgb { 100  0  0 }
 }
 SAX = {
 	color = rgb { 102 102 0 }

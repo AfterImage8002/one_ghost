@@ -6,7 +6,7 @@ state={
 	
 	state_category = city
 	history={
-		owner = POL
+		owner = PRE
 		victory_points = {
 			9263 5
 		}
@@ -26,7 +26,7 @@ state={
 			}
 		}
 		add_core_of = KSH
-		add_core_of = GER
+		add_core_of = PRE
 	}
 
 	provinces={

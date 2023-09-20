@@ -1,0 +1,29 @@
+﻿capital = 4
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_engineers = 1
+	tech_support = 1
+	tech_mountaineers = 1
+	basic_train = 1
+}
+
+set_politics = {
+	ruling_party = socialism
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = yes
+
+}
+set_popularities = {
+	left_nationalism = 10
+	bolsheviks = 20
+	anarchism = 10
+	socialism = 60
+}
+
+set_stability = 0.50
