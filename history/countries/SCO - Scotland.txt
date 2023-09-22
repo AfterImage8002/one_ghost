@@ -33,3 +33,8 @@ set_popularities = {
 #		#
 #	}
 #}
+
+set_autonomy = {
+    target = IRE
+    autonomy_state = autonomy_integrated_puppet
+}
