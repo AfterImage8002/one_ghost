@@ -180,6 +180,10 @@ set_popularities = {
 
 create_faction = Axis
 add_to_faction = GER
+add_to_faction = CZE
+add_to_faction = AUS
+add_to_faction = HUN
+add_to_faction = POL
 
 
 add_ideas = {
@@ -810,6 +814,7 @@ if = {
 				ship_reliability_upgrade = 1
 				sub_engine_upgrade = 1
 				sub_stealth_upgrade = 1
+
 				sub_torpedo_upgrade = 1
 			}
 		}
