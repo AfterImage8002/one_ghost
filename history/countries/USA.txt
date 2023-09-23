@@ -1,4 +1,4 @@
-﻿capital = 121
+﻿capital = 361
 
 #oob = ""
 
@@ -19,8 +19,8 @@ set_popularities = {
 	socialism = 10
 	left_nationalism = 10
 	authoritarianism = 10
-	modified_capitalism = 20
-	let_do = 50
+	modified_capitalism = 50
+	let_do = 20
 }
 
 #create_country_leader = {
@@ -33,13 +33,3 @@ set_popularities = {
 #		#
 #	}
 #}
-
-create_faction = NATO
-add_to_faction = SCO
-add_to_faction = USA
-add_to_faction = CAN
-
-set_autonomy = {
-    target = IRE
-    autonomy_state = autonomy_integrated_puppet
-}

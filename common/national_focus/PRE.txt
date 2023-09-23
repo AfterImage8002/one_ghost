@@ -1,0 +1,25 @@
+focus_tree = {
+    id = PRE_focus_tree
+    country = {
+        base = 0
+        modifier = {
+            tag = PRE
+            original_tag = PRE
+        }
+    }
+    continuous_focus_position = { x = 450 y = 800 }
+    initial_show_position = { focus = OMA_focus_name }
+    focus = {
+        id = PRE_Soviet
+        x = 3
+        y = 0
+        icon = GFX_focus_icon_name
+
+        cost = 8
+        search_filters = { FOCUS_FILTER_MANPOWER }  # Not necessary but recommended, like the icon.
+
+        completion_reward = {
+            add_manpower = 1000
+        }
+    }
+}
