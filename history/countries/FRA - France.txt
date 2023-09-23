@@ -14,6 +14,20 @@ if = {
 	}
 	set_oob = "FRA_1936_nsb"
 }
+create_faction = faction_france
+add_to_faction = BRI
+add_to_faction = OCC
+add_to_faction = NAV
+add_to_faction = CAT
+add_to_faction = WGR
+add_to_faction = HOL
+add_to_faction = ALG
+add_to_faction = TUN
+add_to_faction = MOR
+add_to_faction = SWI
+add_to_faction = CZE
+add_to_faction = HUN
+add_to_faction = POL
 set_autonomy = {
     target = BRI
     autonomy_state = autonomy_integrated_puppet
@@ -1101,14 +1115,3 @@ if = {
 		}
 	}
 }
-create_faction = faction_france
-add_to_faction = BRI
-add_to_faction = OCC
-add_to_faction = NAV
-add_to_faction = CAT
-add_to_faction = WGR
-add_to_faction = HOL
-add_to_faction = ALG
-add_to_faction = TUN
-add_to_faction = MOR
-add_to_faction = SWI

@@ -4,6 +4,10 @@ BSF = {
 	color = RGB {  70 28 0}
 	color_ui = RGB { 70 28 0}
 }
+SCO = {
+	color = rgb { 233 214 89 }
+	color_ui = rgb { 200 190 69 }
+}
 SPA = {
 	color = rgb { 140 25 9 }
 	color_ui = rgb { 255 255 122 }
@@ -11,6 +15,22 @@ SPA = {
 SPB = {
 	color = rgb { 40 10 10 }
 	color_ui = rgb { 0 0 0 }
+}
+IRE = {
+	color = rgb { 80 159 90 }
+	color_ui = rgb { 104 207 117 }
+}
+IRA = {
+	color = rgb { 128 66 61 }
+	color_ui = rgb { 128 66 61 }
+}
+IRB = {
+	color = rgb { 255 60 60 }
+	color_ui = rgb { 200 30 30 }
+}
+IRC = {
+	color = rgb { 59 92 141 }
+	color_ui = rgb { 40 80 120 }
 }
 #바닐라
 GER = {
@@ -117,10 +137,6 @@ POR = {
 FIN = {
 	color = rgb { 205 212 228 }
 	color_ui = rgb { 255 255 255 }
-}
-IRE = {
-	color = rgb { 80 159 90 }
-	color_ui = rgb { 104 207 117 }
 }
 HUN = {
 	color = rgb { 200 67 58 }
@@ -887,8 +903,4 @@ SPM = {
 TTS = {
 	color = rgb { 230 230 0 }
 	color_ui = rgb { 179 179 0 }
-}
-SCO = {
-	color = rgb { 80 159 90 }
-	color_ui = rgb { 104 207 117 }
 }

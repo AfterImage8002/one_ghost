@@ -10,15 +10,14 @@ set_technology = {
 set_convoys = 200
 
 set_politics = {
-	ruling_party = modified_capitalism
+	ruling_party = left_nationalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	socialism = 20
-	modified_capitalism = 70
-	let_do = 10
+	socialism = 30
+	left_nationalism = 70
 }
 
 #create_country_leader = {
