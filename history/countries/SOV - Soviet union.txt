@@ -3,6 +3,14 @@ set_technology = {
 	synth_oil_experiments = 1
 }
 
+declare_war_on = {
+	target = EST
+	type = annex_everything
+}
+declare_war_on = {
+	target = UKR
+	type = annex_everything
+}
 
 ####
 #### VANILLA ####

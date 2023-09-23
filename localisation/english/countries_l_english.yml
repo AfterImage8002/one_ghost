@@ -634,6 +634,26 @@
  SPB_authoritarianism:0 "스페인 왕국"
  SPB_authoritarianism_DEF:0 "스페인 왕국"
 
+ ALG:0 "북련"
+ ALG_DEF:0 "북련"
+ ALG_ADJ:0 "북련"
+ ALG_anarchism:0 "북아프리카 코뮌 연맹"
+ ALG_anarchism_DEF:0 "북아프리카 코뮌 연맹"
+ ALG_socialism:0 "북아프리카 평의회 연방"
+ ALG_socialism_DEF:0 "북아프리카 평의회 연방"
+ ALG_bolsheviks:0 "북아프리카 평의회 연방"
+ ALG_bolsheviks_DEF:0 "북아프리카 평의회 연방"
+ ALG_left_nationalism:0 "북아프리카 평의회 연방"
+ ALG_left_nationalism_DEF:0 "북아프리카 평의회 연방"
+ ALG_modified_capitalism:0 "북아프리카 연방"
+ ALG_modified_capitalism_DEF:0 "북아프리카 연방"
+ ALG_let_do:0 "북아프리카 연방"
+ ALG_let_do_DEF:0 "북아프리카 연방"
+ ALG_feudalism:0 "알 안달루스"
+ ALG_feudalism_DEF:0 "알 안달루스"
+ ALG_authoritarianism:0 "북아프리카"
+ ALG_authoritarianism_DEF:0 "북아프리카"
+
 
 
 
@@ -641,9 +661,6 @@
  BSF:0 "연방 흑해함대"
  BSF_DEF:0 "연방 흑해함대"
  BSF_ADJ:0 "연방 흑해함대"
- ALG:0 "알제리"
- ALG_DEF:0 "알제리"
- ALG_ADJ:0 "알제리"
  MOR:0 "모로코"
  MOR_DEF:0 "모로코"
  MOR_ADJ:0 "모로코"
