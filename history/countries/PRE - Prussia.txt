@@ -1044,3 +1044,8 @@ if = {
 	#	obsolete = yes
 	#}
 }
+
+create_faction = international
+add_to_faction = PRE
+add_to_faction = POL
+add_to_faction = ENG
