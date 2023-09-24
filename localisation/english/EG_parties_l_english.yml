@@ -3,6 +3,12 @@
  FRA_socialism_party:0 "공안위원회"
  FRA_bolsheviks_party:0 "프랑스 공산당"
  FRA_left_nationalism_party:0 "프루동 서클"
- TUR_left_nationalism_party:0 "공화인민당"
+
+ TUR_left_nationalism_party:0 "공화인민당 (급진파)"
  TUR_feudalism_party:0 "이슬람 평의회"
- TUR_bolsheviks_party:0 "파르티잔"
+ TUR_bolsheviks_party:0 "공화인민당 (정통파)"
+ TUR_socialism_party:0 "공화인민당 (변혁파)"
+
+ SPR_authoritarianism_party:0 "기사단 임시위원회"
+ SPR_feudalism_party:0 "카톨릭 교회"
+ SPR_let_do:0 "이베리아 자유당"
