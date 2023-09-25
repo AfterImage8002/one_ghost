@@ -333,8 +333,8 @@ RAJ = {
 }
 
 CRO = {
-	color = rgb { 230  70  180 }
-	color_ui = rgb { 230 255 122 }
+	color = rgb { 72 73 126 }
+	color_ui = rgb { 94 95 164 }
 }
 
 PRC = {
