@@ -1,9 +1,5 @@
 #reload countrycolors
 
-UPA = {
-	color = RGB { 120 45 32 }
-	color_ui = RGB { 120 45 32 }
-}
 BSF = {
 	color = RGB {  70 28 0}
 	color_ui = RGB { 70 28 0}
