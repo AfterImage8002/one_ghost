@@ -10,7 +10,7 @@ state= {
 	state_category = town
 
 	history= {
-		owner = GRE
+		owner = TUR
 		victory_points = {
 			11842 5
 		}
@@ -19,8 +19,7 @@ state= {
 			industrial_complex = 1
 			
 		}
-		add_core_of = GRE
-		add_claim_by = BUL
+		add_core_of = TUR
 
 	}
 	provinces=

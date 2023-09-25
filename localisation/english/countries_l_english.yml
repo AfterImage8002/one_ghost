@@ -1,5 +1,19 @@
 ﻿ l_english:
 
+ UPA_modified_capitalism:0 "더불어민주당 국가수복위원회"
+ UPA_anarchism:0 "한반도 재수복위원회"
+ UPA_socialism:0 "더불어민주당 국가수복위원회"
+ UPA_socialism_DEF:0 "더불어민주당 국가수복위원회"
+ UPA_bolsheviks:0 "정의당 국가수복위원회"
+ UPA_left_nationalism:0 "더불어민주당-NL계 국가수복위원회"
+ UPA_left_nationalism_DEF:0 "더불어민주당-NL계 연합 국가수복위원회"
+ UPA_let_do:0 "국민의힘 국가수복위원회"
+ UPA_let_do_DEF:0 "국민의힘 국가수복위원회"
+ UPA_feudalism:0 "노론-소론 연립 조선 수복회"
+ UPA_feudalism_DEF:0 "노론-소론 연립 조선 수복회"
+ UPA_authoritarianism:0 "박정희주의 대한민국 혁명위원회"
+ UPA_authoritarianism_DEF:0 "박정희주의 대한민국 혁명위원회"
+
  PRE:0 "프로이센"
  PRE_DEF:0 "프로이센"
  PRE_ADJ:0 "프로이센"
