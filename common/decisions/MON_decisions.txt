@@ -1,0 +1,8 @@
+eternal_dictator = {
+	give_me_yoon_coffee = {
+		cost = 2000
+	}
+	copy_copy_copy = {
+		cost = 2000
+	}
+}
