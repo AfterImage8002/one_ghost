@@ -1,8 +1,9 @@
-
 state={
-	id=1001
-	name="STATE_1001"
-
+	id=1030
+	name="STATE_1030"
+	provinces={
+		4164 7110 13303 
+	}
 	history={
 		owner = JAP
 		add_core_of = JAP
@@ -18,11 +19,8 @@ state={
 
 	}
 
-	state_category=town
-	local_supplies=10.000
-	provinces={
-		1183 4102 4198 11949 12032 
-	}
-	manpower=6000000
+	state_category=city
+	manpower=809200
 	buildings_max_level_factor=1.000
+	local_supplies=0.000
 }
