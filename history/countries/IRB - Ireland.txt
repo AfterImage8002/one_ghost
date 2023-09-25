@@ -30,3 +30,7 @@ set_popularities = {
 #		#
 #	}
 #}
+declare_war_on = {
+	target = IRE
+	type = annex_everything
+}

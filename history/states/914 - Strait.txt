@@ -12,6 +12,7 @@ state= {
 			infrastructure = 2	
 		}
 		add_core_of = TUR
+		set_demilitarized_zone = yes
 	}
 	provinces=
 	{ 849 3879 6895	}
