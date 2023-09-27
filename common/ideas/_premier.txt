@@ -3,7 +3,7 @@ ideas = {
 	premier = {
 		TUR_mustafa_kemal_ataturk_premier = {
 			name = TUR_mustafa_kemal_ataturk
-            picture = GFX_idea_slot_political_advisor #임시 
+            picture = slot_political_advisor #임시 
 
 			allowed = {
 				tag = TUR
