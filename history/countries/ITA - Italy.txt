@@ -1,11 +1,11 @@
 capital = 2
 set_politics = {
-	ruling_party = socialism
+	ruling_party = left_nationalism
 }
 set_popularities = {
-	socialism = 30
-	feudalism = 28
-	left_nationalism = 15
-	anarchism = 11
-	modified_capitalism = 16
+	socialism = 10
+	anarchism = 10
+	left_nationalism = 68
+	modified_capitalism = 2
+	feudalism = 10
 }
