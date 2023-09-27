@@ -12,8 +12,8 @@ state={
 	}
 
 	history={
-		owner = GDC
-		add_core_of = GDC
+		owner = ENG
+
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {

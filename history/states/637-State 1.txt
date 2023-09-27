@@ -4,7 +4,7 @@ state={
 	name="STATE_637"
 
 	history={
-		owner = RAW
+		owner = SOV
 		buildings = {
 			infrastructure = 1
 			12207 = {
@@ -13,39 +13,8 @@ state={
 			}
 
 		}
-		add_core_of = RAW
 		add_core_of = FER
-		add_claim_by = ENG
-		add_claim_by = FRA
-		add_claim_by = GER
-		add_claim_by = SPR
-		add_claim_by = POR
-		add_claim_by = SWI
-		add_claim_by = HOL
-		add_claim_by = RHI
-		add_claim_by = SGE
-		add_claim_by = ITA
-		add_claim_by = DEN
-		add_claim_by = NOR
-		add_claim_by = SWE
-		add_claim_by = FIN
-		add_claim_by = AUS
-		add_claim_by = CZE
-		add_claim_by = SLO
-		add_claim_by = HUN
-		add_claim_by = YUG
-		add_claim_by = ALB
-		add_claim_by = GRE
-		add_claim_by = ROM
-		add_claim_by = BUL
-		add_claim_by = POL
-		add_claim_by = LAT
-		add_claim_by = EST
-		add_claim_by = BLR
-		add_claim_by = UKR
-		add_claim_by = UKS
-		add_claim_by = SOV
-		add_claim_by = KUB
+		add_core_of = SOV
 
 	}
 
