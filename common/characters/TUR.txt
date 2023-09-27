@@ -1,0 +1,20 @@
+characters={
+	TUR_mustafa_kemal_ataturk={
+		name=TUR_mustafa_kemal_ataturk
+		portraits={
+			civilian={
+				large=GFX_portrait_TUR_mustafa_kemal_ataturk
+				small=GFX_portrait_Michael_Costello_small
+			}
+			army={
+				large = GFX_portrait_TUR_mustafa_kemal_ataturk_military
+			}
+		}
+		country_leader={
+			ideology=jucheism
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,66 @@
+ideas = {
+
+	ruling_system = {
+		law = yes
+		use_list_view = yes
+
+		presidential_system = {
+
+
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			allowed_to_remove = {
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+	power_structure = {
+		law = yes
+		use_list_view = yes
+
+		power_dispersion = {
+
+
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			allowed_to_remove = {
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+	intervention_laws = {
+		law = yes
+		use_list_view = yes
+
+		intervention_isolationism = {
+
+
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+
+			allowed_to_remove = {
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+}

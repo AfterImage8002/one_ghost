@@ -8,3 +8,5 @@ set_popularities = {
 	feudalism = 30
 	bolsheviks = 15
 }
+
+recruit_character = TUR_mustafa_kemal_ataturk
