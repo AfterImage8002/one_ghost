@@ -3,8 +3,14 @@ ideologies = {
 	anarchism = {
 
 		types = {
-			anarcho_communism = {
+			platformism = {
 				
+			}
+			anarchism_ideologie = {
+				
+			}
+			postleft_arnarchism = {
+				can_be_randomly_selected = no
 			}
 		}
 
@@ -59,7 +65,19 @@ ideologies = {
 	socialism = {
 
 		types = {
+			left_communism_councilism = {
+
+			}
+			left_communism_vanguardism = {
+
+			}
 			marxism = {
+
+			}
+			syndicalism = {
+
+			}
+			titoism = {
 
 			}
 		}
@@ -118,6 +136,15 @@ ideologies = {
 			leninism = {
 
 			}
+
+			stalinism = {
+			}
+
+			trotskyism = {
+			}
+
+			anti_revisionism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -171,7 +198,16 @@ ideologies = {
 	left_nationalism = {
 
 		types = {
-			jucheism = {
+			fascism = { #파시즘
+
+			}
+			totalitarianism = { #전체주의
+
+			}
+			agrarian = { #농본사회주의
+
+			}
+			jucheism = { #주체사상
 
 			}
 		}
@@ -227,7 +263,10 @@ ideologies = {
 	modified_capitalism = {
 
 		types = {
-			social_democracy = {
+			social_democracy = { #사회민주주의
+				
+			}
+			social_liberalism = { #사회자유주의
 				
 			}
 		}
@@ -286,6 +325,12 @@ ideologies = {
 			neocon = { #신보수주의
 
 			}
+			liberalism = { #자유주의
+
+			}
+			anarcho_capitalism = { #무정부 자본주의
+
+			}
 		}
 
 		dynamic_faction_names = {
@@ -342,6 +387,9 @@ ideologies = {
 			monarchy = {
 
 			}
+			nobility = {
+
+			}
 		}
 
 		dynamic_faction_names = {
@@ -395,6 +443,9 @@ ideologies = {
 	authoritarianism = {
 
 		types = {
+			ultra_nationalism = {
+
+			}
 			military_government = {
 
 			}
