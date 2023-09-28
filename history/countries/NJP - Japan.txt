@@ -109,7 +109,7 @@ if = {
 
 set_convoys = 400
 
-set_cosmetic_tag = JAP_FRA
+set_cosmetic_tag = JAP_SOV
 
 set_politics = {
 	ruling_party = authoritarianism
@@ -118,9 +118,9 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	socialism = 32
-	anarchism = 8
-	authoritarianism = 58
+	socialism = 5
+	anarchism = 5
+	authoritarianism = 88
 	feudalism = 2
 }
 

@@ -1,3 +1,13 @@
+JAP_FRA = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 163 17 31 }
+}
+
+JAP_SOV = {
+	color = rgb { 175 13 0 }
+	color_ui = rgb { 175 13 0 }
+}
+
 MAL_UK = {
     color = rgb { 201 56 93 }
     color_ui = rgb { 255 73 121 }
