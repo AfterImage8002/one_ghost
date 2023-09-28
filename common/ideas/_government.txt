@@ -34,9 +34,7 @@ ideas = {
 			allowed_to_remove = {
 				stability_factor < 0.10
 				NOT = {
-					OR = {
-						has_government = feudalism
-					}
+					has_government = feudalism
 				}
 			}
 
