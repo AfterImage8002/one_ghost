@@ -8,9 +8,8 @@ state={
 	buildings_max_level_factor=1.000
 	state_category = wasteland
 	history={
-		owner = ETU
+		owner = SIK
 		add_core_of = SIK
-		add_core_of = ETU
 		buildings = {
 			infrastructure = 1
 

@@ -7,7 +7,8 @@ state={
 	state_category = rural
 
 	history={
-		owner = JAP
+		owner = EZO
+		add_core_of = EZO
 		add_core_of = JAP
 		buildings = {
 			infrastructure = 2

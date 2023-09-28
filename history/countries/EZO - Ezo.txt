@@ -1,0 +1,37 @@
+﻿capital = 282
+
+
+
+set_stability = 0.9
+set_war_support = 0.3
+
+set_research_slots = 2
+
+
+set_technology = {
+	infantry_weapons = 1
+	tech_recon = 1
+	marines  = 1
+	gw_artillery = 1
+	basic_train = 1
+	trench_warfare = 1
+	base_strike = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	fuel_refining = 1
+}
+
+set_convoys = 100
+
+set_politics = {
+	ruling_party = socialism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	socialism = 40
+	anarchism = 50
+	left_nationalism = 8
+	feudalism = 2
+}

@@ -6,7 +6,8 @@ state = {
 
 	history = {
 	
-		owner = BUK
+		owner = SIK
+		add_core_of = SIK
 		
 		victory_points = {
 			1573 2 

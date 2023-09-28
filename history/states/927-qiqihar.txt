@@ -6,10 +6,9 @@ state={
 		1502 1847 4809 4876 7873 7894 12485 
 	}
 	history = {
-		owner = FNG
-		add_core_of = FNG
+		owner = MAN
+		add_core_of = MAN
 		add_core_of = CHI
-		add_core_of = ZLC
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 0

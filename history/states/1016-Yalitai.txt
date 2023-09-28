@@ -2,9 +2,8 @@ state={
 	id=1016
 	name="STATE_1016"
 	history={
-		owner = ETU
+		owner = SIK
 		add_core_of = SIK
-		add_core_of = ETU
 		buildings = {
 			infrastructure = 1
 

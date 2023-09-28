@@ -5,7 +5,8 @@ state = {
 
 	history = {
 	
-		owner = BUK
+		owner = SIK
+		add_core_of = SIK
 		
 		victory_points = {
 			1459 3 
@@ -21,13 +22,6 @@ state = {
 		
 		add_core_of = BUK
 		add_core_of = UZB
-		
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 3
-
-			}
-		}
 	}
 
 	provinces = {

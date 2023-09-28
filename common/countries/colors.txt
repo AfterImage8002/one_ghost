@@ -1,5 +1,24 @@
 #reload countrycolors
-
+FER = {
+	color = rgb { 165 0 0 }
+	color_ui = rgb { 100 0 0 }
+}
+EZO = {
+	color = RGB { 141 57 57 }
+	color_ui = RGB { 100 8 8 }
+}
+MAN = {
+	color = rgb { 209 61 31 }
+	color_ui = rgb { 209 61 31 }
+}
+SIK = {
+	color = rgb { 218 53 103 }
+	color_ui = rgb { 198 23 83 }
+}
+KUB = {
+	color = RGB { 182 0 55 }
+	color_ui = RGB { 70 8 8 }
+}
 BSF = {
 	color = RGB {  70 28 0}
 	color_ui = RGB { 70 28 0}
@@ -262,10 +281,6 @@ SIA = {
 	color = rgb { 171 190 152 }
 	color_ui = rgb { 222 247 198 }
 }
-SIK = {
-	color = rgb { 71 190 152 }
-	color_ui = rgb { 222 247 198 }
-}
 TIB = {
 	color = rgb { 80 115 45}
 	color_ui = rgb { 222 247 198 }
@@ -450,10 +465,6 @@ MNT = {
 BLR = {
 	color = rgb { 180 220 190 }
 	color_ui = rgb { 180 220 190 }
-}
-MAN = {
-	color = rgb { 255 120 71 }
-	color_ui = rgb { 255 120 71 }
 }
 ANG = {
 	color = rgb { 37 140 61 }
@@ -763,10 +774,6 @@ DAG = {
 BYA = {
 	color = rgb { 0 64 255 }
 	color_ui = rgb { 0 45 179 }
-}
-FER = {
-	color = rgb { 179 45 0 }
-	color_ui = rgb { 128 32 0 }
 }
 CKK = {
 	color = rgb { 179 179 0 }
