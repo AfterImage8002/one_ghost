@@ -32,13 +32,10 @@ ideas = {
 			}
 
 			allowed_to_remove = {
+				stability_factor < 0.10
 				NOT = {
 					OR = {
-						has_government = left_nationalism
-						has_government = modified_capitalism
-						has_government = let_do
 						has_government = feudalism
-						has_government = authoritarianism
 					}
 				}
 			}
