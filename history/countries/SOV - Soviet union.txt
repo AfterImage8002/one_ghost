@@ -3,6 +3,10 @@ set_technology = {
 	synth_oil_experiments = 1
 }
 
+create_faction = international
+add_to_faction = SOV
+add_to_faction = LIT
+
 declare_war_on = {
 	target = EST
 	type = annex_everything
