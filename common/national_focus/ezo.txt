@@ -1,0 +1,17 @@
+focus_tree = {
+    id = EZO_focus_tree
+    country = {
+        base = 10
+        modifier = {
+            tag = EZO
+            original_tag = EZO
+        }
+    }
+    continuous_focus_position = { x = 0 y = 2800 }
+    focus = {
+        id = EZO_wake_up_of_1929
+        
+        cost = 100
+
+    }
+}
