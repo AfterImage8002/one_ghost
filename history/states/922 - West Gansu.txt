@@ -6,12 +6,13 @@ state= {
 	state_category = rural
 
 	history= {
-		owner = GSC
+		owner = CHI
 		
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = GSC
+		add_core_of = PRC
+		add_core_of = CHI
 	}
 	provinces={1778 2028 5076 7971 12596 12820}
 
