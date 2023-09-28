@@ -25,9 +25,6 @@
  let_do_drift:0 "매일 자유방임주의 지지도"
  feudalism_drift:0 "매일 봉건주의 지지도"
  authoritarianism_drift:0 "매일 권위주의 지지도"
- anarchism_noun_drift:0 "매일 아나키즘 지지도"
- socialism_noun_drift:0 "매일 사회주의 지지도"
- bolsheviks_noun_drift:0 "매일 볼셰비키 지지도"
 
  anarchism_desc:0 "없음"
  socialism_desc:0 "사회주의 체제"
