@@ -1,0 +1,22 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_monarchy_system"
+		textureFile = "gfx/interface/government_icon/monarchy_system.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_presidential_system"
+		textureFile = "gfx/interface/government_icon/presidential_system.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_parliamentary_system"
+		textureFile = "gfx/interface/government_icon/parliamentary_system.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_council_system"
+		textureFile = "gfx/interface/government_icon/council_system.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_collapse_system"
+		textureFile = "gfx/interface/government_icon/collapse_system.tga"
+	}
+}

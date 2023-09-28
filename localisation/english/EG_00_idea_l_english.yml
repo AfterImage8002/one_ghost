@@ -5,6 +5,11 @@
  power_structure:0 "권력 구조"
  intervention_laws:0 "개입법"
 
+ monarchy_system:0 "군주제"
  presidential_system:0 "대통령제"
+ parliamentary_system:0 "의원내각제"
+ council_system:0 "평의회제"
+ collapse_system:0 "무정부 상태"
+
  power_dispersion:0 "간접 민주정"
  intervention_isolationism:0 "고립주의"

@@ -4,8 +4,17 @@ ideas = {
 		law = yes
 		use_list_view = yes
 
-		presidential_system = {
+		monarchy_system = { #군주제
 
+            picture = monarchy_system
+
+			available = {
+				stability_factor > 0.50
+				OR = {
+					has_government = feudalism
+					has_government = authoritarianism
+				}
+			}
 
 			allowed = {
 				always = yes
@@ -13,11 +22,198 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				generate_wargoal_tension = -0.20
+				join_faction_tension = 0.10
+				puppet_cost_factor = -0.20
+				political_power_factor = 0.10	
+				stability_factor = 0.2	
+				war_support_factor = 0.2
+				drift_defence_factor = 0.5
 			}
 
 			allowed_to_remove = {
+				NOT = {
+					OR = {
+						has_government = left_nationalism
+						has_government = modified_capitalism
+						has_government = let_do
+						has_government = feudalism
+						has_government = authoritarianism
+					}
+				}
 			}
 
+			ai_will_do = {
+   				factor = 1000
+   			}
+
+			cost = 350
+			cancel_if_invalid = no
+		}
+
+		presidential_system = { #대통령제
+
+            picture = presidential_system
+
+			available = {
+				stability_factor > 0.50
+				OR = {
+					has_government = left_nationalism
+					has_government = modified_capitalism
+					has_government = let_do
+					has_government = feudalism
+					has_government = authoritarianism
+				}
+			}
+
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				generate_wargoal_tension = -0.10
+				political_power_factor = 0.05
+				stability_factor = 0.2
+				war_support_factor = 0.2
+				drift_defence_factor = 0.3
+			}
+
+			allowed_to_remove = {
+				NOT = {
+					OR = {
+						has_government = left_nationalism
+						has_government = modified_capitalism
+						has_government = let_do
+						has_government = feudalism
+						has_government = authoritarianism
+					}
+				}
+			}
+
+			ai_will_do = {
+   				factor = 1000
+   			}
+
+			cost = 300
+			default = yes
+			cancel_if_invalid = no
+		}
+
+		parliamentary_system = { #의원내각제
+
+            picture = parliamentary_system
+
+			available = {
+				stability_factor > 0.50
+				OR = {
+					has_government = left_nationalism
+					has_government = modified_capitalism
+					has_government = let_do
+					has_government = feudalism
+					has_government = authoritarianism
+				}
+			}
+
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = 0.05
+				stability_factor = 0.10
+				war_support_factor = 0.10
+				drift_defence_factor = 0.1
+			}
+
+			allowed_to_remove = {
+				NOT = {
+					OR = {
+						has_government = left_nationalism
+						has_government = modified_capitalism
+						has_government = let_do
+						has_government = feudalism
+						has_government = authoritarianism
+					}
+				}
+			}
+
+			ai_will_do = {
+   				factor = 1000
+   			}
+
+			cost = 300
+			cancel_if_invalid = no
+		}
+
+		council_system = { #평의회제
+
+            picture = council_system
+
+			available = {
+				stability_factor > 0.50
+				OR = {
+					has_government = left_nationalism
+					has_government = bolsheviks
+					has_government = socialism
+					has_government = anarchism
+				}
+			}
+
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				generate_wargoal_tension = -0.20
+				join_faction_tension = -0.20
+				puppet_cost_factor = -0.10
+				political_power_factor = -0.10
+				stability_factor = 0.10
+				war_support_factor = 0.10
+				drift_defence_factor = -0.10	
+			}
+
+			allowed_to_remove = {
+				NOT = {
+					OR = {
+						has_government = left_nationalism
+						has_government = bolsheviks
+						has_government = socialism
+						has_government = anarchism
+					}
+				}
+			}
+
+			ai_will_do = {
+   				factor = 1000
+   			}
+			
+			cost = 300
+			cancel_if_invalid = no
+		}
+
+		collapse_system = { #체제 붕괴
+
+            picture = collapse_system
+
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = -0.25
+				stability_factor = -0.50
+				drift_defence_factor = -0.90
+			}
+
+			allowed_to_remove = {
+				stability_factor > 0.15
+			}
+			cost = 300
 			cancel_if_invalid = no
 		}
 	}
@@ -39,6 +235,7 @@ ideas = {
 			allowed_to_remove = {
 			}
 
+			default = yes
 			cancel_if_invalid = no
 		}
 	}
@@ -60,6 +257,7 @@ ideas = {
 			allowed_to_remove = {
 			}
 
+			default = yes
 			cancel_if_invalid = no
 		}
 	}
