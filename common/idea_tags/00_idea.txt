@@ -38,9 +38,9 @@ idea_categories = {
 	}
 	
 	government = {
-		slot = ruling_system
 		slot = power_structure
 		slot = intervention_laws
+		slot = labor_law
 		slot = economy
 		slot = trade_laws
 		slot = mobilization_laws

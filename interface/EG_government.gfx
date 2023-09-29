@@ -1,22 +1,30 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_idea_monarchy_system"
-		textureFile = "gfx/interface/government_icon/monarchy_system.tga"
+		name = "GFX_idea_basic_trade_union"
+		textureFile = "gfx/interface/government_icon/basic_trade_union.tga"
 	}
 	spriteType = {
-		name = "GFX_idea_presidential_system"
-		textureFile = "gfx/interface/government_icon/presidential_system.tga"
+		name = "GFX_idea_council_republic"
+		textureFile = "gfx/interface/government_icon/council_republic.tga"
 	}
 	spriteType = {
-		name = "GFX_idea_parliamentary_system"
-		textureFile = "gfx/interface/government_icon/parliamentary_system.tga"
+		name = "GFX_idea_industrial_relations_law"
+		textureFile = "gfx/interface/government_icon/industrial_relations_law.tga"
 	}
 	spriteType = {
-		name = "GFX_idea_council_system"
-		textureFile = "gfx/interface/government_icon/council_system.tga"
+		name = "GFX_idea_labor_union_ban"
+		textureFile = "gfx/interface/government_icon/labor_union_ban.tga"
 	}
 	spriteType = {
-		name = "GFX_idea_collapse_system"
-		textureFile = "gfx/interface/government_icon/collapse_system.tga"
+		name = "GFX_idea_no_labor_laws"
+		textureFile = "gfx/interface/government_icon/no_labor_laws.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_state_trade_union"
+		textureFile = "gfx/interface/government_icon/state_trade_union.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_syndicalist_society"
+		textureFile = "gfx/interface/government_icon/syndicalist_society.tga"
 	}
 }

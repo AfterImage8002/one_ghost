@@ -1,15 +1,17 @@
 ﻿ l_english:
  cabinet:0 "내각"
  premier:0 "총리"
- ruling_system:0 "통치 체제"
  power_structure:0 "권력 구조"
  intervention_laws:0 "개입법"
+ labor_law:0 "노동법"
 
- monarchy_system:0 "군주제"
- presidential_system:0 "대통령제"
- parliamentary_system:0 "의원내각제"
- council_system:0 "평의회제"
- collapse_system:0 "무정부 상태"
+ council_republic:0 "평의회 공화국"
+ syndicalist_society:0 "노동조합주의"
+ industrial_relations_law:0 "노사관계법"
+ basic_trade_union:0 "현장 통제"
+ state_trade_union:0 "국영 노동조합"
+ labor_union_ban:0 "노동조합 금지"
+ no_labor_laws:0 "노동법 없음"
 
  power_dispersion:0 "간접 민주정"
  intervention_isolationism:0 "고립주의"
