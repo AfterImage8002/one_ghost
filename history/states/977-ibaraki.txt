@@ -5,11 +5,12 @@ state={
 		4100 7016 
 	}
 	history={
-		owner = JAP
+		owner = NJP
 		buildings = {
 			infrastructure = 3
 		}
 		add_core_of = JAP
+        add_core_of = NJP
 		victory_points = {
 			7016 1 
 		}

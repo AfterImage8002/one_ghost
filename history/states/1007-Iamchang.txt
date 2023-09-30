@@ -7,6 +7,7 @@ state={
 		owner = CHI
 		add_core_of = PRC
 		add_core_of = JAP
+        add_core_of = NJP
 		add_core_of = KOR
 		add_core_of = USA
 		add_core_of = ENG

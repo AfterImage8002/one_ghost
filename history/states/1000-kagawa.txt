@@ -5,8 +5,9 @@ state={
 		4094 
 	}
 	history={
-		owner = JAP
+		owner = NJP
 		add_core_of = JAP
+        add_core_of = NJP
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2

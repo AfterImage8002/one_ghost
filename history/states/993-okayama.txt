@@ -10,6 +10,7 @@ state={
 			industrial_complex = 1
 		}
 		add_core_of = JAP
+        add_core_of = NJP
 		victory_points = {
 			7212 1 
 		}

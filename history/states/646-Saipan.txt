@@ -8,6 +8,7 @@ state=
 	{
 		owner = JAP
 		add_core_of = JAP
+        add_core_of = NJP
 		add_core_of = GUM
 		buildings = {
 			infrastructure = 2

@@ -1,6 +1,9 @@
 ﻿capital = 282
 
-
+declare_war_on = {
+	target = NJP
+	type = annex_everything
+}
 
 set_stability = 0.2 #baseline, THE EMPEROR PROTECTS
 set_war_support = 0.2

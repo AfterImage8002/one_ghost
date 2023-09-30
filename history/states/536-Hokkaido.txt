@@ -10,6 +10,7 @@ state={
 		owner = EZO
 		add_core_of = EZO
 		add_core_of = JAP
+        add_core_of = NJP
 		buildings = {
 			infrastructure = 4
 			arms_factory = 3
