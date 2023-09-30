@@ -25,20 +25,90 @@ ideas = {
 		law = yes
 		use_list_view = yes
 
+		subordinate_diplomacy = {
+			allowed = {
+				always = yes
+			}
+			available = {
+				is_puppet = yes
+			}
+			removal_cost = -1
+			modifier = {
+			}
+			allowed_to_remove = {
+					is_puppet = no
+			}
+			cancel_if_invalid = no
+		}
 		intervention_isolationism = {
-
-
 			allowed = {
 				always = yes
 			}
 			removal_cost = -1
-
 			modifier = {
 			}
-
 			allowed_to_remove = {
 			}
-
+			default = yes
+			cancel_if_invalid = no
+		}
+		non_ally_policy = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+			}
+			allowed_to_remove = {
+			}
+			default = yes
+			cancel_if_invalid = no
+		}
+		collective_security = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+			}
+			allowed_to_remove = {
+			}
+			default = yes
+			cancel_if_invalid = no
+		}
+		maintaining_strategy = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+			}
+			allowed_to_remove = {
+			}
+			default = yes
+			cancel_if_invalid = no
+		}
+		imperialism_diplomacy = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+			}
+			allowed_to_remove = {
+			}
+			default = yes
+			cancel_if_invalid = no
+		}
+		expansion_policy = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+			}
+			allowed_to_remove = {
+			}
 			default = yes
 			cancel_if_invalid = no
 		}

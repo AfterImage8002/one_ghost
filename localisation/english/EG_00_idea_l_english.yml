@@ -14,4 +14,12 @@
  no_labor_laws:0 "노동법 없음"
 
  power_dispersion:0 "간접 민주정"
+
+ #개입법
+ subordinate_diplomacy:0 "종속 외교"
  intervention_isolationism:0 "고립주의"
+ non_ally_policy:0 "비동맹주의"
+ collective_security:0 "집단 안보"
+ maintaining_strategy:0 "현상 유지"
+ imperialism_diplomacy:0 "제국주의"
+ expansion_policy:0 "팽창주의"
