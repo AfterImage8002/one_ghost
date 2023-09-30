@@ -11,13 +11,14 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = socialism
+	ruling_party = bolsheviks
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	socialism = 80
+	bolsheviks = 60
+	socialism = 20
 	anarchism = 8
 	left_nationalism = 12
 }

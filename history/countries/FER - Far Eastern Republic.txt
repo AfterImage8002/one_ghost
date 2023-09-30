@@ -89,9 +89,13 @@ set_politics = {
 
 }
 set_popularities = {
-	left_nationalism = 30
-	anarchism = 35
-	socialism = 35
+	left_nationalism = 20
+	anarchism = 15
+	bolsheviks = 10
+	socialism = 25
+	feudalism = 5
+	authoritarianism = 10
+	modified_capitalism = 15
 }
 
 
