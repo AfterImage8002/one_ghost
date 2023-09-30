@@ -34,6 +34,12 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+				join_faction_tension = 25
+				war_stability_factor = -0.3
+				send_volunteers_tension = 50
+			}
+			rule = {
+				can_not_declare_war = yes
 			}
 			allowed_to_remove = {
 					is_puppet = no
@@ -47,6 +53,11 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 			}
+			rule = {
+				can_not_declare_war = yes
+				can_join_factions = no
+				can_send_volunteers = no
+			}
 			allowed_to_remove = {
 			}
 			default = yes
@@ -58,6 +69,9 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+				
+				join_faction_tension = 100
+				send_volunteers_tension = 75
 			}
 			allowed_to_remove = {
 			}
@@ -70,6 +84,9 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+				join_faction_tension = 25
+				defensive_war_stability_factor = 0.1
+				send_volunteers_tension = 10
 			}
 			allowed_to_remove = {
 			}
@@ -82,8 +99,13 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+				join_faction_tension = 100
+				send_volunteers_tension = 20
 			}
 			allowed_to_remove = {
+			}
+			rule = {
+				can_only_justify_war_on_threat_country = yes
 			}
 			default = yes
 			cancel_if_invalid = no
@@ -94,6 +116,9 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+				join_faction_tension = 75
+				offensive_war_stability_factor = -0.05
+				send_volunteers_tension = 25
 			}
 			allowed_to_remove = {
 			}
@@ -106,6 +131,9 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+				join_faction_tension = 25
+				offensive_war_stability_factor = -0.1
+				send_volunteers_tension = 25
 			}
 			allowed_to_remove = {
 			}
