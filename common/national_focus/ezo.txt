@@ -125,13 +125,15 @@ focus_tree = {
         cost = 6
         x = 1
         y = 1
+        available = {
+            has_global_flag = JAP_war_end
+        }
         relative_position_id = EZO_make_ainu_greatest_again
         prerequisite = { focus = EZO_make_ainu_greatest_again focus = EZO_fuck_japan_and_join_sov }
         completion_reward = {
-            annex_country = {
-                target = NJP
-                transfer_troops = yes
-            }
+            transfer_state = 971
+            transfer_state = 972
+            transfer_state = 974
             add_state_core = 971
             add_state_core = 972
             add_state_core = 974
