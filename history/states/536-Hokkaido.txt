@@ -4,20 +4,27 @@ state={
 	name="STATE_536"
 	manpower = 2812000
 	
-	state_category = rural
+	state_category = large_city
 
 	history={
 		owner = EZO
 		add_core_of = EZO
 		add_core_of = JAP
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 6
+			
 		}
 		victory_points = {
-			10444 15 
+			10444 25 
 		}
 		victory_points = {
-			12421 5 
+			12421 10 
+		}
+		victory_points = {
+			12493 5
 		}
 
 	}

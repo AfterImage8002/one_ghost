@@ -1,0 +1,31 @@
+leader_traits = {
+	japans_shogun = {
+		random = no
+	}
+	supreme_allied_commander = {
+		political_power_factor = 0.25
+		democratic_drift = 0.02
+	}
+	viceroy = {
+		random = no
+		consumer_goods_factor = -0.05
+		cic_to_overlord_factor = 0.75
+		mic_to_overlord_factor = 0.75
+		extra_trade_to_overlord_factor = 0.25
+		master_ideology_drift = 0.05
+		autonomy_gain_trade_factor = -0.75
+		autonomy_manpower_share = -1
+	}
+	ainu_father = {
+		random = no
+		sprite = 13
+		weekly_manpower = 2500
+	}
+	##### IDEA TRAITS ##### 
+	father_of_juche = { #테스트용
+		random = no
+		sprite = 13
+		political_power_gain = 0.2
+		weekly_manpower = 50000
+	}
+}
