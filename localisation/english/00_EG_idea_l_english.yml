@@ -4,6 +4,11 @@
  power_structure:0 "권력 구조"
  intervention_laws:0 "개입법"
  labor_law:0 "노동법"
+ 
+ council_system:0 "평의회 체제"
+ vanguard_party_system:0 "전위당 체제"
+ communist_dictatorship_system:0 "공산독재"
+ dictatorship_system:0 "독재정"
 
  council_republic:0 "평의회 공화국"
  syndicalist_society:0 "노동조합주의"

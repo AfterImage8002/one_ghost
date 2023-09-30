@@ -1,4 +1,195 @@
 ideas = {
+	country = {
+		militarism_focus = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = fascism
+			}
+			
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+	
+			modifier = {
+				conscription = 0.05
+				resistance_damage_to_garrison = -0.1 
+			}
+		}
+		EG_national_socialism = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				OR = {
+					has_government = anarchism
+					has_government = socialism
+					has_government = bolsheviks
+					has_government = left_nationalism
+				}
+			}
+
+			removal_cost = -1
+
+			picture = generic_intel_bonus
+			
+			modifier = {
+				left_nationalism_drift = 0.10
+			}
+		}
+		EG_internationalism = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				OR = {
+					has_government = anarchism
+					has_government = socialism
+					has_government = bolsheviks
+					has_government = left_nationalism
+				}
+			}
+
+			removal_cost = -1
+
+			picture = generic_intel_bonus
+			
+			modifier = {
+				anarchism_drift = 0.02
+				socialism_drift = 0.04
+				bolsheviks_drift = 0.04
+			}
+		}
+		EG_nationalism = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = fascism
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				left_nationalism_drift = 0.07
+				authoritarianism_drift = 0.04
+			}
+		}
+		EG_citadel_of_capitalism = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				OR = {
+					has_government = modified_capitalism
+					has_government = let_do
+					has_government = feudalism
+					has_government = authoritarianism
+				}
+			}
+			
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+	
+			modifier = {
+				trade_opinion_factor = 0.2
+			}
+		}
+		EG_anti_capitalism = {
+			
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				OR = {
+					has_government = anarchism
+					has_government = socialism
+					has_government = bolsheviks
+					has_government = left_nationalism
+				}
+			}
+		
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+
+			modifier = {
+				modified_capitalism_drift = -0.02
+				let_do_drift = -0.02
+			}
+		}
+		EG_communism_influence = {
+			picture = generic_fascism_drift_2
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				OR = {
+					has_government = anarchism
+					has_government = socialism
+					has_government = bolsheviks
+					has_government = left_nationalism
+				}
+			}
+
+			modifier = {
+				stability_factor = -0.02
+				anarchism_drift = 0.01
+				socialism_drift = 0.04
+				bolsheviks_drift = 0.03
+				left_nationalism_drift = 0.02
+			}
+		}
+		EG_neutrality_idea = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = neutrality
+			}
+
+			cancel = {
+				has_war = yes
+			}
+			
+			removal_cost = -1
+	
+			modifier = {
+				#generate_wargoal_tension = 1.00
+				join_faction_tension = 1.00
+				#lend_lease_tension = 0.50
+				send_volunteers_tension = 0.20
+				guarantee_tension = 1.0
+				embargo_threshold_factor = 2.5
+				ai_badass_factor = 0.01    # Will receive 1% of the threat from others
+				ai_get_ally_desire_factor = -100
+			}
+		}
+	}
 	# TECHNOLOGY
 	tank_manufacturer = { 
 	

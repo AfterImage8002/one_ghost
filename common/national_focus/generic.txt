@@ -1727,9 +1727,15 @@ focus_tree = {
 	focus = {
 		id = political_effort
 		icon = GFX_goal_generic_demand_territory
-		x = 19
+		x = 20
 		y = 0
 		cost = 10
+
+		available = {
+			NOT = {
+				has_government = anarchism
+			}
+		}
 	
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	
@@ -1737,6 +1743,509 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 120
+		}
+	}
+
+	focus = {
+		id = collectivist_ethos
+		icon = GFX_goal_generic_national_unity #icon = GFX_goal_tripartite_pact
+		prerequisite = { focus = political_effort }
+		mutually_exclusive = { focus = liberty_ethos }
+		available = {
+			OR = {
+				has_government = socialism
+				has_government = bolsheviks
+				has_government = left_nationalism
+				has_government = authoritarianism
+			}
+		}
+		x = -1
+		y = 1
+		relative_position_id = political_effort
+		cost = 10
+	
+		search_filters = { FOCUS_FILTER_POLITICAL   }
+
+		available_if_capitulated = yes
+
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				OR = {
+					AND = {
+						is_historical_focus_on = yes
+						OR = {
+							has_government = modified_capitalism
+							has_government = let_do
+							has_government = feudalism
+						}
+					}
+					has_idea = EG_neutrality_idea
+				}
+			}
+			modifier = {
+				factor = 20
+				has_idea = EG_communism_influence
+			}
+		}
+
+		completion_reward = {
+			add_timed_idea = { idea = EG_anti_capitalism days = 1095 }
+		}
+	}
+
+	focus = {
+		id = nationalism_focus
+		icon = GFX_goal_support_fascism #icon = GFX_goal_tripartite_pact
+		prerequisite = { focus = collectivist_ethos }
+		mutually_exclusive = { focus = internationalism_focus }
+		available = {
+			OR = {
+				has_government = left_nationalism
+				has_government = authoritarianism
+			}
+		}
+		x = 2
+		y = 1
+		relative_position_id = collectivist_ethos
+		cost = 10
+	
+		search_filters = { FOCUS_FILTER_POLITICAL  }
+
+		available_if_capitulated = yes
+
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 2
+				any_neighbor_country = {
+					is_major = yes
+					OR = {
+						has_government = left_nationalism
+						has_government = authoritarianism
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				AND = {
+					is_historical_focus_on = yes
+					NOT = { 
+						OR = {
+							has_government = left_nationalism
+							has_government = authoritarianism
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 10
+				has_idea = EG_communism_influence
+			}
+		}
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = EG_nationalism
+				days = 720
+			}
+		}
+	}
+	
+	focus = {
+		id = internationalism_focus
+		icon = GFX_goal_support_communism #icon = GFX_goal_tripartite_pact
+		prerequisite = { focus = collectivist_ethos }
+		mutually_exclusive = { focus = nationalism_focus }
+		available = {
+			OR = {
+				has_government = socialism
+				has_government = bolsheviks
+				has_government = left_nationalism
+			}
+		}
+		x = -1
+		y = 1
+		relative_position_id = collectivist_ethos
+		cost = 10
+	
+		search_filters = { FOCUS_FILTER_POLITICAL  }
+
+		available_if_capitulated = yes
+
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 2
+				any_neighbor_country = {
+					is_major = yes
+					OR = {
+						has_government = socialism
+						has_government = bolsheviks
+					}
+				}
+			}			
+			modifier = {
+				factor = 0
+				AND = {
+					is_historical_focus_on = yes
+					NOT = { 
+						OR = {
+							has_government = socialism
+							has_government = bolsheviks
+							has_government = left_nationalism
+						}
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = EG_internationalism
+				days = 720
+			}
+		}
+	}	
+	
+	focus = {
+		id = international_communism_focus
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = internationalism_focus focus = nationalism_focus }
+		mutually_exclusive = { focus = national_socialism_focus }
+		available = {
+			OR = {
+				has_government = socialism
+				has_government = bolsheviks
+				has_government = left_nationalism
+			}
+		}
+		x = -1
+		y = 1
+		relative_position_id = internationalism_focus
+		cost = 10
+	
+		search_filters = { FOCUS_FILTER_POLITICAL  }
+
+		available_if_capitulated = yes
+
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 0
+				AND = {
+					is_historical_focus_on = yes
+					NOT = { 
+						OR = {
+							has_government = bolsheviks
+							has_government = left_nationalism
+						}
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = EG_internationalism
+				days = 720
+			}
+		}
+	}	
+	
+	focus = {
+		id = vanguardism_focus
+		icon = GFX_focus_SOV_the_path_of_marxism_leninism
+		prerequisite = { focus = international_communism_focus }
+		mutually_exclusive = { focus = council_focus }
+		available = {
+			OR = {
+				has_government = bolsheviks
+				has_government = left_nationalism
+			}
+		}
+		x = 1
+		y = 1
+		relative_position_id = international_communism_focus
+		cost = 10
+	
+		search_filters = { FOCUS_FILTER_POLITICAL  }
+
+		available_if_capitulated = yes
+
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 0
+				AND = {
+					is_historical_focus_on = yes
+					NOT = { 
+						OR = {
+							has_government = bolsheviks
+							has_government = left_nationalism
+						}
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			add_political_power = 20
+			if = {
+				limit = { NOT = { has_idea = vanguard_party_system } }
+				add_ideas = vanguard_party_system
+			}
+		}
+	}	
+	
+	focus = {
+		id = council_focus
+		icon = GFX_focus_eng_liberate_the_home_of_marx
+		prerequisite = { focus = international_communism_focus }
+		mutually_exclusive = { focus = vanguardism_focus }
+		available = {
+			has_government = socialism
+		}
+		x = -1
+		y = 1
+		relative_position_id = international_communism_focus
+		cost = 10
+	
+		search_filters = { FOCUS_FILTER_POLITICAL  }
+
+		available_if_capitulated = yes
+
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			add_political_power = 20
+			if = {
+				limit = { NOT = { has_idea = council_system } }
+				add_ideas = council_system
+			}
+		}
+	}
+	
+	focus = {
+		id = national_socialism_focus
+		icon = GFX_focus_SOV_the_last_purge
+		prerequisite = { focus = internationalism_focus focus = nationalism_focus }
+		mutually_exclusive = { focus = neutrality_focus focus = international_communism_focus }
+		available = {
+			OR = {
+				has_government = left_nationalism
+				has_government = authoritarianism
+			}
+		}
+		x = 2
+		y = 1
+		relative_position_id = internationalism_focus
+		cost = 10
+	
+		search_filters = { FOCUS_FILTER_POLITICAL  }
+
+		available_if_capitulated = yes
+
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 0
+				AND = {
+					is_historical_focus_on = yes
+					NOT = { 
+						OR = {
+							has_government = bolsheviks
+							has_government = left_nationalism
+						}
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = EG_national_socialism
+				days = 720
+			}
+		}
+	}	
+	
+	focus = {
+		id = socialism_with_national_characteristics
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = national_socialism_focus }
+		available = {
+			has_government = left_nationalism
+		}
+		x = 0
+		y = 2
+		relative_position_id = national_socialism_focus
+		cost = 10
+	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = communist_dictatorship_system
+		}
+	}	
+
+	focus = {
+		id = liberty_ethos
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = political_effort }
+		mutually_exclusive = { focus = collectivist_ethos }
+		available = {
+			OR = {
+				has_government = modified_capitalism
+				has_government = let_do
+				has_government = feudalism
+				has_government = authoritarianism
+			}
+		}
+		x = 3
+		y = 1
+		relative_position_id = political_effort
+		cost = 10
+	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		available_if_capitulated = yes
+
+
+		ai_will_do = {
+			factor = 95
+			modifier = {
+				factor = 0.1
+				any_neighbor_country = {
+					is_major = yes
+					OR = {
+						has_government = socialism
+						has_government = bolsheviks
+						has_government = left_nationalism
+					}
+				}
+				NOT = {
+					any_neighbor_country = {
+						is_major = yes
+						OR = {
+							has_government = modified_capitalism
+							has_government = let_do
+							has_government = feudalism
+						}
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			add_political_power = 20
+			if = {
+				limit = { NOT = { has_idea = communist_dictatorship_system } }
+				add_ideas = communist_dictatorship_system
+			}
+		}
+	}
+
+	focus = {
+		id = interventionism_focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = liberty_ethos }
+		x = 1
+		y = 1
+		relative_position_id = liberty_ethos
+		cost = 10
+
+		available = {
+			NOT = {
+				has_government = anarchism
+			}
+		}
+	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		available_if_capitulated = yes
+
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			set_rule = { can_send_volunteers = yes }
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = neutrality_focus
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = { focus = liberty_ethos focus = nationalism_focus }
+		mutually_exclusive = { focus = national_socialism_focus }
+		available = {
+			has_government = authoritarianism
+		}
+		x = -1
+		y = 2
+		relative_position_id = liberty_ethos
+		cost = 10
+	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			if = {
+				limit = { NOT = { has_idea = EG_neutrality_idea } }
+				add_ideas = EG_neutrality_idea
+			}
+			if = {
+				limit = { NOT = { has_idea = dictatorship_system } }
+				add_ideas = dictatorship_system
+			}
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = militarism
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = national_socialism_focus focus = neutrality_focus }
+		x = 0
+		y = 2
+		relative_position_id = nationalism_focus
+		cost = 10
+
+		available = {
+			OR = {
+				has_government = left_nationalism
+				has_government = authoritarianism
+			}
+		}
+	
+		search_filters = { FOCUS_FILTER_POLITICAL  }
+
+		available_if_capitulated = yes
+
+		completion_reward = {	
+			add_ideas = militarism_focus
+			army_experience = 20
+			set_rule = { can_send_volunteers = yes }
 		}
 	}
 }
