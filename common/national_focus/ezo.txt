@@ -12,7 +12,7 @@ focus_tree = {
     default = no
     focus = {
         id = EZO_wake_up_of_1929
-        
+        icon = GFX_goal_tfv_saf_anti_colonialist_crusade        
         cost = 10
         x = 7
         y = 0
@@ -25,6 +25,7 @@ focus_tree = {
     }
     focus = {
         id = EZO_land_rev
+        icon = GFX_focus_generic_land_reclamation
         cost = 10
         x = 0
         y = 1
@@ -32,6 +33,143 @@ focus_tree = {
         relative_position_id = EZO_wake_up_of_1929
         completion_reward = {
             add_political_power = 50
+            add_ideas = EZO_collective_farm
+        }
+    }
+    focus = {
+        id = EZO_army
+        icon = G
+        cost = 5
+        x = -7
+        y = 1
+        relative_position_id = EZO_land_rev
+        prerequisite = { focus = EZO_land_rev }
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = EZO_create_marine
+        icon = G
+        cost = 5
+        x = -2
+        y = 1
+        relative_position_id = EZO_army
+        prerequisite = { focus = EZO_army }
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = EZO_modern_art
+        icon = G
+        cost = 10
+        x = 0
+        y = 1
+        relative_position_id = EZO_army
+        prerequisite = { focus = EZO_army }
+    }
+    focus = {
+        id = EZO_years_plan
+        icon = G
+        cost = 10
+        x = 7
+        y = 1
+        relative_position_id = EZO_land_rev
+        prerequisite = { focus = EZO_land_rev }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = EZO_politics_revolution
+        icon = G
+        cost = 10
+        x = 0
+        y = 1
+        relative_position_id = EZO_land_rev
+        prerequisite = { focus = EZO_land_rev }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = EZO_make_ainu_greatest_again
+        icon = G
+        cost = 4
+        x = -1
+        y = 1
+        relative_position_id = EZO_politics_revolution
+        prerequisite = { focus = EZO_politics_revolution }
+        mutually_exclusive = { focus = EZO_fuck_japan_and_join_sov }
+        completion_reward = {
+            add_political_power = 250
+        }
+    }
+    focus = {
+        id = EZO_fuck_japan_and_join_sov
+        icon = G
+        cost = 4
+        x = 1
+        y = 1
+        relative_position_id = EZO_politics_revolution
+        mutually_exclusive = { focus = EZO_make_ainu_greatest_again }
+        prerequisite = { focus = EZO_politics_revolution }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = EZO_claim_north_japan
+        icon = a
+        cost = 6
+        x = 1
+        y = 1
+        relative_position_id = EZO_make_ainu_greatest_again
+        prerequisite = { focus = EZO_make_ainu_greatest_again focus = EZO_fuck_japan_and_join_sov }
+        completion_reward = {
+            annex_country = {
+                target = NJP
+                transfer_troops = yes
+            }
+            add_state_core = 971
+            add_state_core = 972
+            add_state_core = 974
+        }
+    }
+    focus = {
+        id = EZO_attack_ryukyu
+        icon = a
+        cost = 10
+        x = -5
+        y = 1
+        relative_position_id = EZO_claim_north_japan
+        prerequisite = { focus = EZO_claim_north_japan }
+        prerequisite = { focus = EZO_make_ainu_greatest_again }
+        completion_reward = {
+            526 = {
+                owner = {
+                    EZO = {
+                        declare_war_on = {
+                            target = PREV
+                            type = annex_everything
+                        }
+                    }
+                }
+            }
+        }
+    }
+    focus = {
+        id = EZO_with_west_power
+        icon = a
+        cost = 10
+        x = 5
+        y = 1
+        relative_position_id = EZO_claim_north_japan
+        prerequisite = { focus = EZO_claim_north_japan }
+        prerequisite = { focus = EZO_fuck_japan_and_join_sov }
+        completion_reward = {
+
         }
     }
 }

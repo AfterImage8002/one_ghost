@@ -1,0 +1,33 @@
+ideas = {
+	country = {
+		EZO_collective_farm = {
+			picture = LIT_invested_in_farms
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				conscription_factor = -0.15
+				political_power_gain = -0.05
+				consumer_goods_factor = -0.075
+			}
+		}
+		EZO_low_adminstration = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				conscription_factor = -0.3
+				political_power_gain = -0.05
+				consumer_goods_factor = 0.05
+			}
+		}
+	}
+}
