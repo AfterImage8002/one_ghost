@@ -23,6 +23,7 @@
  maintaining_strategy:0 "현상 유지"
  imperialism_diplomacy:0 "제국주의"
  expansion_policy:0 "팽창주의"
+ cant_create_wargoal_tt:0 "§Y전쟁 목표§!를 정당화할 수 없습니다."
 
  EZO_low_adminstration:0 "낮은 행정력"
  EZO_collective_farm:0 "집단농장"

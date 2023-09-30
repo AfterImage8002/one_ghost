@@ -37,12 +37,15 @@ ideas = {
 				join_faction_tension = 0.25
 				war_stability_factor = -0.3
 				send_volunteers_tension = 0.50
+				custom_modifier_tooltip = cant_create_wargoal_tt
+				hidden_modifier = {
+					generate_wargoal_tension = 2
+				}
 			}
 			rule = {
-				can_not_declare_war = yes
 			}
 			allowed_to_remove = {
-					is_puppet = no
+				is_puppet = no
 			}
 			cancel_if_invalid = no
 		}
@@ -52,9 +55,12 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+				custom_modifier_tooltip = cant_create_wargoal_tt
+				hidden_modifier = {
+					generate_wargoal_tension = 2
+				}
 			}
 			rule = {
-				can_not_declare_war = yes
 				can_join_factions = no
 				can_send_volunteers = no
 			}
@@ -69,7 +75,7 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				
+				generate_wargoal_tension = 1
 				join_faction_tension = 1
 				send_volunteers_tension = 0.75
 			}
@@ -83,6 +89,7 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+				generate_wargoal_tension = 2
 				join_faction_tension = 0.25
 				defensive_war_stability_factor = 0.1
 				send_volunteers_tension = 0.10
@@ -97,6 +104,7 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+				generate_wargoal_tension = 0.3
 				join_faction_tension = 1
 				send_volunteers_tension = 0.20
 			}
@@ -113,6 +121,7 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+				generate_wargoal_tension = 0.5
 				join_faction_tension = 0.75
 				offensive_war_stability_factor = -0.05
 				send_volunteers_tension = 0.25
@@ -127,6 +136,7 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+				generate_wargoal_tension = 0.25
 				join_faction_tension = 0.25
 				offensive_war_stability_factor = -0.1
 				send_volunteers_tension = 0.25
