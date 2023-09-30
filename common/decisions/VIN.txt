@@ -1,0 +1,89 @@
+political_actions = {
+    EZO_communist_make_independent = {
+		allowed = {
+			original_tag = EZO
+		}
+		available = {
+			has_war = no
+            every_state = {
+                limit = {
+                    is_core_of = LAO
+                }
+                is_owned_by = EZO
+            }
+            every_state = {
+                limit = {
+                    is_core_of = CAM
+                }
+                is_owned_by = EZO
+            }
+		}
+		visible = {
+			has_war = no
+		}
+		cost = 50
+		ai_will_do = {
+			factor = 1
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+            add_state_core = 670
+            add_state_core = 741
+            SIA = {
+                every_core_state = {
+                    add_state_claim = EZO
+                }
+            }
+		}
+	}
+    EZO_break_union = {
+		allowed = {
+			original_tag = EZO
+		}
+		available = {
+			has_war = no
+		}
+		visible = {
+			has_war = no
+		}
+		cost = 50
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			release = LAO
+			release = CAM
+            drop_cosmetic_tag = EZO
+
+            ROOT = {
+                create_faction = "동남아시아 국가 연합"
+                add_to_faction = LAO
+                add_to_faction = CAM
+				CAM = {
+					set_politics = {
+						ruling_party = communism
+						last_election = "1936.1.1"
+						election_frequency = 48
+						elections_allowed = no
+					}
+					set_popularities = {
+						communism = 100
+					}
+				}
+				LAO = {
+					set_politics = {
+						ruling_party = communism
+						last_election = "1936.1.1"
+						election_frequency = 48
+						elections_allowed = no
+					}
+					set_popularities = {
+						communism = 100
+					}
+				}
+            }
+		}
+	}
+}

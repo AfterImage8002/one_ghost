@@ -1,17 +1,28 @@
 focus_tree = {
     id = EZO_focus_tree
     country = {
-        base = 10
+        base = 0
         modifier = {
+            add = 100
             tag = EZO
             original_tag = EZO
         }
     }
     continuous_focus_position = { x = 0 y = 2800 }
+    default = no
     focus = {
         id = EZO_wake_up_of_1929
         
-        cost = 100
-
+        cost = 10
+        x = 7
+        y = 0
+    }
+    focus = {
+        id = EZO_heritage_of_jomon
+        cost = 10
+        x = 0
+        y = 1
+        prerequisite = { focus = EZO_wake_up_of_1929 }
+        relative_position_id = EZO_wake_up_of_1929
     }
 }
