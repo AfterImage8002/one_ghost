@@ -1,0 +1,11 @@
+capital = 104
+recruit_character = YUG_josip_broz_tito
+set_politics = {
+	ruling_party = socialism
+}
+set_popularities = {
+	socialism = 60
+	feudalism = 20
+	bolsheviks = 20
+	
+}
