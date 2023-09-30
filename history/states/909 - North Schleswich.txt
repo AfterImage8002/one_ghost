@@ -6,7 +6,7 @@ state= {
 
 	history=
 	{
-		owner = PRE
+		owner = DEN
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
