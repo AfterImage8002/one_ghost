@@ -1,6 +1,29 @@
 ideas = {
 
 	premier = {
+		KOR_kim_ilsung = {
+			name = KOR_kim_ilsung
+            picture = "gfx/prime_minister/idea_KOR_kim_ilsung.dds" #임시 
+
+			allowed = {
+				OR = {
+					tag = KOR
+					tag = EZO
+					tag = CHI
+					tag = SOV
+				}
+			}
+			removal_cost = -1
+
+			traits = { 
+				ainu_father
+			}
+
+			allowed_to_remove = {
+			}
+
+			cancel_if_invalid = no
+		}
 		TUR_mustafa_kemal_ataturk_premier = {
 			name = TUR_mustafa_kemal_ataturk
             picture = monarchy_system #임시 
