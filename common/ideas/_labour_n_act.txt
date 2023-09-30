@@ -34,9 +34,9 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				join_faction_tension = 25
+				join_faction_tension = 0.25
 				war_stability_factor = -0.3
-				send_volunteers_tension = 50
+				send_volunteers_tension = 0.50
 			}
 			rule = {
 				can_not_declare_war = yes
@@ -70,12 +70,11 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 				
-				join_faction_tension = 100
-				send_volunteers_tension = 75
+				join_faction_tension = 1
+				send_volunteers_tension = 0.75
 			}
 			allowed_to_remove = {
 			}
-			default = yes
 			cancel_if_invalid = no
 		}
 		collective_security = {
@@ -84,13 +83,12 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				join_faction_tension = 25
+				join_faction_tension = 0.25
 				defensive_war_stability_factor = 0.1
-				send_volunteers_tension = 10
+				send_volunteers_tension = 0.10
 			}
 			allowed_to_remove = {
 			}
-			default = yes
 			cancel_if_invalid = no
 		}
 		maintaining_strategy = {
@@ -99,15 +97,14 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				join_faction_tension = 100
-				send_volunteers_tension = 20
+				join_faction_tension = 1
+				send_volunteers_tension = 0.20
 			}
 			allowed_to_remove = {
 			}
 			rule = {
 				can_only_justify_war_on_threat_country = yes
 			}
-			default = yes
 			cancel_if_invalid = no
 		}
 		imperialism_diplomacy = {
@@ -116,13 +113,12 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				join_faction_tension = 75
+				join_faction_tension = 0.75
 				offensive_war_stability_factor = -0.05
-				send_volunteers_tension = 25
+				send_volunteers_tension = 0.25
 			}
 			allowed_to_remove = {
 			}
-			default = yes
 			cancel_if_invalid = no
 		}
 		expansion_policy = {
@@ -131,13 +127,12 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				join_faction_tension = 25
+				join_faction_tension = 0.25
 				offensive_war_stability_factor = -0.1
-				send_volunteers_tension = 25
+				send_volunteers_tension = 0.25
 			}
 			allowed_to_remove = {
 			}
-			default = yes
 			cancel_if_invalid = no
 		}
 	}
