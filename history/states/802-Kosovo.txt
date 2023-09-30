@@ -7,7 +7,7 @@ state={
 		victory_points = {
 			6940 3 
 		}
-		owner = ALB
+		owner = KOS
 		buildings = {
 			infrastructure = 1
 
@@ -15,7 +15,7 @@ state={
 		add_core_of = ALB
 		add_core_of = KOS
 		add_core_of = SER
-
+		set_demilitarized_zone = yes
 	}
 
 	provinces={

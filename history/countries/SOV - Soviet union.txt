@@ -6,6 +6,7 @@ set_technology = {
 create_faction = international
 add_to_faction = SOV
 add_to_faction = LIT
+add_to_faction = MAN
 
 declare_war_on = {
 	target = EST
