@@ -248,15 +248,6 @@ is_csa_state = {
 	}
 }
 
-has_naval_treaty_trigger = {
-	OR = {
-		has_idea = MTG_naval_treaty_adherent
-		has_idea = MTG_naval_treaty_cheating
-		has_idea = MTG_naval_treaty_adherent_reduced
-		has_idea = MTG_naval_treaty_cheating_reduced
-	}
-}
-
 ai_air_doctrine_tier_1_trigger = {
 	OR = {
 		has_tech = naval_strike_tactics
@@ -472,11 +463,33 @@ should_USA_invade_europe_or_africa = {
 		USA = {
 			OR = {
 				AND = {
-					has_government = democratic
-					ENG = { has_government = democratic }
 					OR = {
-						GER = { has_government = fascism }
-						ITA = { has_government = fascism }
+						has_government = modified_capitalism
+						has_government = let_do
+					}
+					SCO = {
+						OR = {
+							has_government = modified_capitalism
+							has_government = let_do
+						}
+					}
+					OR = {
+						FRA = { 
+							OR = {
+								has_government = socialism
+								has_government = bolsheviks
+								has_government = left_nationalism
+								has_government = authoritarianism
+							}
+						}
+						ITA = {
+							OR = {
+								has_government = socialism
+								has_government = bolsheviks
+								has_government = left_nationalism
+								has_government = authoritarianism
+							}
+						}
 					}
 				}
 				is_in_array = { potential_and_current_enemies = GER }
@@ -653,20 +666,36 @@ has_same_ideology = {
 		tooltip = has_same_ideology_tt
 		OR = {
 			AND = {
-				has_government = democratic
-				ROOT = { has_government = democratic }
+				has_government = anarchism
+				ROOT = { has_government = anarchism }
 			}
 			AND = {
-				has_government = fascism
-				ROOT = { has_government = fascism }
+				has_government = socialism
+				ROOT = { has_government = socialism }
 			}
 			AND = {
-				has_government = communism
-				ROOT = { has_government = communism }
+				has_government = bolsheviks
+				ROOT = { has_government = bolsheviks }
 			}
 			AND = {
-				has_government = neutrality
-				ROOT = { has_government = neutrality }
+				has_government = left_nationalism
+				ROOT = { has_government = left_nationalism }
+			}
+			AND = {
+				has_government = modified_capitalism
+				ROOT = { has_government = modified_capitalism }
+			}
+			AND = {
+				has_government = let_do
+				ROOT = { has_government = let_do }
+			}
+			AND = {
+				has_government = feudalism
+				ROOT = { has_government = feudalism }
+			}
+			AND = {
+				has_government = authoritarianism
+				ROOT = { has_government = authoritarianism }
 			}
 		}
 	}
@@ -709,13 +738,6 @@ has_expert_level_trigger = {
 
 has_genius_level_trigger = {
 	skill > 7
-}
-
-is_league_of_nations_member = {
-	custom_trigger_tooltip = {
-		tooltip = is_league_of_nations_member_tt
-		has_idea = league_of_nations_member_idea
-	}
 }
 
 state_is_in_the_mediterranean_sea = {
@@ -818,13 +840,6 @@ is_initial_ethiopian_state = {
 has_subject_autonomy_feature = {
 	has_dlc = "Together for Victory"
 	#TODO_Manu: More DLCs?
-}
-
-is_organization_of_african_unity_member = {
-	custom_trigger_tooltip = {
-		tooltip = is_league_of_nations_member_tt
-		has_idea = organization_of_african_unity_member_idea
-	}
 }
 
 has_tech_sharing_feature = {

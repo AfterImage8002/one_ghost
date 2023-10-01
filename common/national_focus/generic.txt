@@ -1782,7 +1782,7 @@ focus_tree = {
 							has_government = feudalism
 						}
 					}
-					has_idea = EG_neutrality_idea
+					has_idea = intervention_isolationism
 				}
 			}
 			modifier = {

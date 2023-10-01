@@ -11,9 +11,7 @@ state={
 			infrastructure = 1
 
 		}
-		add_core_of = ZLC
 		add_core_of = CHI
-		add_core_of = FNG
 
 	}
 

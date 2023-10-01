@@ -2,20 +2,6 @@
 add_ideas = {
 	council_system
 }
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
-	set_oob = "FRA_1936"
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_oob = "FRA_1936_nsb"
-}
 create_faction = faction_france
 add_to_faction = BRI
 add_to_faction = OCC
