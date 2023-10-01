@@ -1,0 +1,105 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ideology_anarchism_group"
+		textureFile = "gfx/interface/ideologies/anarchism_group.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_socialism_group"
+		textureFile = "gfx/interface/ideologies/communism_group.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_bolsheviks_group"
+		textureFile = "gfx/interface/ideologies/red_junta_group.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_left_nationalism_group"
+		textureFile = "gfx/interface/ideologies/left_nationalism_group.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_modified_capitalism_group"
+		textureFile = "gfx/interface/ideologies/socdem_left_nationalism_group.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_let_do_group"
+		textureFile = "gfx/interface/ideologies/marlib_national_liberalism_group.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_feudalism_group"
+		textureFile = "gfx/interface/ideologies/absolute_monarchy_group.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_authoritarianism_group"
+		textureFile = "gfx/interface/ideologies/authdem_warlordism_group.tga"
+	}
+	
+
+
+	spriteType = {
+		name = "GFX_ideology_agrarian"
+		textureFile = "gfx/interface/ideologies/agrarian_socialism_group.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_platformism"
+		textureFile = "gfx/interface/ideologies/agrarian_syndicalism_group.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_titoism"
+		textureFile = "gfx/interface/ideologies/hardliner_bolshevism_group.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_jucheism"
+		textureFile = "gfx/interface/ideologies/juche_group.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_anti_revisionism"
+		textureFile = "gfx/interface/ideologies/national_communism_group.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_totalitarianism"
+		textureFile = "gfx/interface/ideologies/autocratic_socialist_group.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_left_communism_councilism"
+		textureFile = "gfx/interface/ideologies/anarcho_syndicalist_group.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_left_communism_vanguardism"
+		textureFile = "gfx/interface/ideologies/anarcho_syndicalist_group.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_neocon"
+		textureFile = "gfx/interface/ideologies/national_conservative_group.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_social_liberalism"
+		textureFile = "gfx/interface/ideologies/progressive_conservatism_group.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_social_market_economy"
+		textureFile = "gfx/interface/ideologies/soclib_christian_democracy_group.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_christian"
+		textureFile = "gfx/interface/ideologies/autdem_christian_democracy_group.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_fascism"
+		textureFile = "gfx/interface/ideologies/communism_fascism.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_syndicalism"
+		textureFile = "gfx/interface/ideologies/syndicalist_group.tga"
+	}
+	#spriteType = {
+	#	name = "GFX_ideology_technocracy"
+	#	textureFile = "gfx/interface/ideologies/technocracy.tga"
+	#}
+	#spriteType = {
+	#	name = "GFX_ideology_islamic_socialism"
+	#	textureFile = "gfx/interface/ideologies/tot_islamic_socialism_group.tga"
+	#}
+	#spriteType = {
+	#	name = "GFX_ideology_kemalism"
+	#	textureFile = "gfx/interface/ideologies/kemalism_group.tga"
+	#}
+}

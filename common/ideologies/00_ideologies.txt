@@ -202,6 +202,9 @@ ideologies = {
 			social_liberalism = { #사회자유주의
 				
 			}
+			social_market_economy = { #사회적 시장경제
+				
+			}
 		}
 
 		dynamic_faction_names = {
@@ -288,6 +291,9 @@ ideologies = {
 
 		types = {
 			monarchy = {
+
+			}
+			nobility = {
 
 			}
 			nobility = {
