@@ -1,9 +1,9 @@
 state={
-	id=1019
-	name="STATE_1019"
+	id=1028
+	name="STATE_1027"
 	resources={
-		chromium=3.000
-		tungsten=7.000
+		rubber=6.000
+		steel=3.000
 	}
 	history={
 		add_core_of = VIN
@@ -18,9 +18,9 @@ state={
 	}
 	state_category=town
 	provinces={
-		1248 1302 4255 4379 4397 7229 7280 9988 10016 10137 10180 10309 11909 11936 12297 
+		1620 4330 4596 7645 10204 12167 12260 12288 
 	}
-	manpower=4820000
-	buildings_max_level_factor=2.000
+	manpower=242000
+	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
