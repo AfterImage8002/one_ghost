@@ -1764,7 +1764,7 @@ focus_tree = {
 		relative_position_id = political_effort
 		cost = 10
 	
-		search_filters = { FOCUS_FILTER_POLITICAL   }
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_PROPAGANDA  }
 
 		available_if_capitulated = yes
 
@@ -1812,7 +1812,7 @@ focus_tree = {
 		relative_position_id = collectivist_ethos
 		cost = 10
 	
-		search_filters = { FOCUS_FILTER_POLITICAL  }
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_PROPAGANDA }
 
 		available_if_capitulated = yes
 
@@ -1872,7 +1872,7 @@ focus_tree = {
 		relative_position_id = collectivist_ethos
 		cost = 10
 	
-		search_filters = { FOCUS_FILTER_POLITICAL  }
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_PROPAGANDA }
 
 		available_if_capitulated = yes
 
@@ -2211,10 +2211,6 @@ focus_tree = {
 
 		completion_reward = {
 			if = {
-				limit = { NOT = { has_idea = EG_neutrality_idea } }
-				add_ideas = EG_neutrality_idea
-			}
-			if = {
 				limit = { NOT = { has_idea = dictatorship_system } }
 				add_ideas = dictatorship_system
 			}
@@ -2238,7 +2234,7 @@ focus_tree = {
 			}
 		}
 	
-		search_filters = { FOCUS_FILTER_POLITICAL  }
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_ARMY_XP }
 
 		available_if_capitulated = yes
 
