@@ -1,0 +1,27 @@
+state={
+	id=1021
+	name="STATE_1021"
+	resources={
+		chromium=3.000
+		tungsten=11.000
+		chromium=4
+	}
+	history={
+		add_core_of = VIN
+		owner = VIN
+		victory_points = {
+			4075 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		1285 1300 1328 1400 1605 4334 4363 4405 7271 7380 10162 10232 12109 12150 12176 12204 
+	}
+	manpower=4328000
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=2.000
+}
