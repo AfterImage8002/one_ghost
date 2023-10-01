@@ -6,8 +6,8 @@ state={
 	
 	state_category = pastoral
 	history={
-		owner = MLI
-		add_core_of = MLI
+		owner = LIB
+		add_core_of = LIB
 		add_core_of = GNA
 		victory_points = {
 			1909 1 

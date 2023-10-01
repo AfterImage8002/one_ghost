@@ -6,8 +6,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = EGY
-		add_core_of = EGY
+		owner = PAL
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 1

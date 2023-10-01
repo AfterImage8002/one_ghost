@@ -5,7 +5,8 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = MLI
+		owner = ALG
+		add_core_of = ALG
 		add_core_of = MLI
 		
 		buildings = {

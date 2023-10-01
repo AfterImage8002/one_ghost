@@ -4,7 +4,8 @@ state={
 	manpower = 92400
 	state_category = pastoral
 	history={
-		owner = POR
+		owner = ZIM
+		add_core_of = ZIM
 		buildings = {
 			infrastructure = 2
 
