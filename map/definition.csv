@@ -13282,7 +13282,7 @@
 13279;108;25;236;land;true;plains;6 #대만
 13280;109;142;17;land;true;plains;6 #대만
 13281;244;207;90;land;true;plains;6 #대만
-13282;23;97;89;land;true;plains;6 #dokdo
+13282;22;12;116;land;false;mountain;6
 
 13283;212;248;179;land;true;plains;6 #캄차카
 13284;173;164;26;land;true;plains;6 #캄차카
@@ -13329,4 +13329,3 @@
 13323;173;182;98;land;false;plains;6
 13324;31;156;155;land;false;plains;6
 13325;83;150;62;land;false;plains;6
-13326;22;12;116;land;false;mountain;6

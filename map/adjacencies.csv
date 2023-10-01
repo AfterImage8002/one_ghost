@@ -196,5 +196,4 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9650;3684;impassable;-1;-1;-1;-1;-1;;austrian alps
 3314;6336;sea;2752;2885;1578;2890;1581;;Afsluitdijk
 12011;13266;sea;2609;-1;-1;-1;-1;;Gangwon
-13266;13282;sea;7932;-1;-1;-1;-1;;Dokdo/Liancourt Rocks/takeshima
 -1;-1;;-1;-1;-1;-1;-1;-1
