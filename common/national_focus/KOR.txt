@@ -23,15 +23,49 @@ focus_tree = {
     }
     focus = {
         id = KOR_sov_give_in
-        icon = GFX_goal_tfv_saf_anti_colonialist_crusade        
-        cost = 3
-        x = 2.5
-        y = 1.5
+        icon = GFX_goal_support_communism       
+        cost = 2
+        x = 2
+        y = 1
+        prerequisite = {
+            focus = KOR_new_korea
+        }
+        mutually_exclusive = {
+            focus = KOR_no_sov
+        }
+        completion_reward = {
+            SOV = { country_event = sov_event.1 }
+            
+        }
+    }
+    focus = {
+        id = KOR_no_sov
+        icon = GFX_goal_anti_comintern_pact      
+        cost = 2
+        x = 6
+        y = 1
+        prerequisite = {
+            focus = KOR_new_korea
+        }
+        mutually_exclusive = {
+            focus = KOR_sov_give_in
+        }
+        completion_reward = {
+            
+            
+        }
+    }
+    focus = {
+        id = KOR_select_ideologies
+        icon = GFX_focus_generic_self_management       
+        cost = 10
+        x = 6
+        y = 3
         prerequisite = {
             focus = KOR_new_korea
         }
         completion_reward = {
-            SOV = { country_event = sov_event.1 }
+            
             
         }
     }
