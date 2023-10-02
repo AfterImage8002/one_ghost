@@ -62,7 +62,7 @@ focus_tree = {
         x = 6
         y = 3
         prerequisite = {
-            focus = KOR_new_korea
+            focus = KOR_no_sov
         }
         completion_reward = {
             
