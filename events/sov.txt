@@ -1,0 +1,18 @@
+add_namespace = sov_event
+
+country_event = {
+    id = sov_event.1
+    title = sov_event.1.t
+    desc = sov_event.1.desc
+	
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = sov_event.1.a
+        annex_country = {
+			target = KOR
+		}
+		
+    }
+}

@@ -1,0 +1,38 @@
+focus_tree = {
+    id = KOR_focus_tree
+    country = {
+        base = 0
+        modifier = {
+            add = 100
+            tag = KOR
+            original_tag = KOR
+        }
+    }
+    continuous_focus_position = { x = 0 y = 2800 }
+    default = no
+	focus = {
+        id = KOR_new_korea
+        icon = GFX_goal_tfv_saf_anti_colonialist_crusade        
+        cost = 1
+        x = 4
+        y = 0
+        completion_reward = {
+            add_political_power = 25
+            
+        }
+    }
+    focus = {
+        id = KOR_sov_give_in
+        icon = GFX_goal_tfv_saf_anti_colonialist_crusade        
+        cost = 3
+        x = 2.5
+        y = 1.5
+        prerequisite = {
+            focus = KOR_new_korea
+        }
+        completion_reward = {
+            SOV = { country_event = sov_event.1 }
+            
+        }
+    }
+}
