@@ -6,32 +6,34 @@ country_event = {
 	
     
     is_triggered_only = yes
-    
+
+    option = {
+		#아나키즘
+        name = korea.1.a
+        complete_national_focus = KOR_mujungbuzuui
+    }
     option = {
 		#사회주의
 		#후에 분화 예정
-        name = korea.1.a
+        name = korea.1.b
+        complete_national_focus = KOR_communism
 		
     }
 	option = {
 		#민주주의
 		#후에 분화 예정
-        name = korea.1.b
-		
+        name = korea.1.c
+		complete_national_focus = KOR_minjujuui
     }
 	option = {
 		#파시즘
-        name = korea.1.c
-		
+        name = korea.1.d
+		complete_national_focus = KOR_fasi
     }
 	option = {
 		#왕정
-        name = korea.1.d
-		
-    }
-	option = {
-		#볼셰비키
         name = korea.1.e
-		SOV = { country_event = sov.1 }
+		complete_national_focus = KOR_wangjung
     }
+	
 }

@@ -23,7 +23,7 @@ focus_tree = {
     }
     focus = {
         id = KOR_sov_give_in
-        icon = GFX_goal_support_communism       
+        icon = GFX_goal_generic_war_with_comintern       
         cost = 2
         x = 2
         y = 1
@@ -66,6 +66,86 @@ focus_tree = {
         }
         completion_reward = {
             country_event = korea.1
+        }
+    }
+    focus = {
+        id = KOR_communism
+        icon = GFX_goal_support_communism       
+        cost = 0
+        x = 3
+        y = 4
+        available = {
+            always = no
+        }
+        prerequisite = {
+            focus = KOR_select_ideologies
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = KOR_minjujuui
+        icon = GFX_goal_support_democracy       
+        cost = 0
+        x = 6
+        y = 4
+        available = {
+            always = no
+        }
+        prerequisite = {
+            focus = KOR_select_ideologies
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = KOR_mujungbuzuui
+        icon = GFX_goal_generic_demand_territory       
+        cost = 0
+        x = 0
+        y = 4
+        available = {
+            always = no
+        }
+        prerequisite = {
+            focus = KOR_select_ideologies
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = KOR_fasi
+        icon = GFX_goal_support_fascism       
+        cost = 0
+        x = 9
+        y = 4
+        available = {
+            always = no
+        }
+        prerequisite = {
+            focus = KOR_select_ideologies
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = KOR_wangjung
+        icon = GFX_focus_generic_monarchy_1       
+        cost = 0
+        x = 12
+        y = 4
+        available = {
+            always = no
+        }
+        prerequisite = {
+            focus = KOR_select_ideologies
+        }
+        completion_reward = {
+
         }
     }
 }
