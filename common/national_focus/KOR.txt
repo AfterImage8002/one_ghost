@@ -31,7 +31,7 @@ focus_tree = {
             focus = KOR_new_korea
         }
         mutually_exclusive = {
-            focus = KOR_no_sov
+            focus = KOR_fuck_sov
         }
         completion_reward = {
             SOV = { country_event = sov.1 }
@@ -39,7 +39,7 @@ focus_tree = {
         }
     }
     focus = {
-        id = KOR_no_sov
+        id = KOR_fuck_sov
         icon = GFX_goal_anti_comintern_pact      
         cost = 2
         x = 6
@@ -62,7 +62,7 @@ focus_tree = {
         x = 6
         y = 3
         prerequisite = {
-            focus = KOR_no_sov
+            focus = KOR_fuck_sov
         }
         completion_reward = {
             country_event = korea.1
