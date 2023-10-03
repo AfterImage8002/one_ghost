@@ -32,6 +32,6 @@ country_event = {
 	option = {
 		#볼셰비키
         name = korea.1.e
-		
+		SOV = { country_event = sov.1 }
     }
 }

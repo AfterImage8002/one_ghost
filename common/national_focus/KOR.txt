@@ -51,7 +51,7 @@ focus_tree = {
             focus = KOR_sov_give_in
         }
         completion_reward = {
-            
+            add_political_power = 100
             
         }
     }
@@ -65,8 +65,7 @@ focus_tree = {
             focus = KOR_no_sov
         }
         completion_reward = {
-            
-            
+            country_event = korea.1
         }
     }
 }
