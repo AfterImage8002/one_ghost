@@ -34,7 +34,7 @@ focus_tree = {
             focus = KOR_no_sov
         }
         completion_reward = {
-            SOV = { country_event = sov_event.1 }
+            SOV = { country_event = sov.1 }
             
         }
     }

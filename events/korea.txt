@@ -1,1 +1,37 @@
 add_namespace = korea
+country_event = {
+    id = korea.1
+    title = korea.1.t
+    desc = korea.1.desc
+	
+    
+    is_triggered_only = yes
+    
+    option = {
+		#사회주의
+		#후에 분화 예정
+        name = korea.1.a
+		
+    }
+	option = {
+		#민주주의
+		#후에 분화 예정
+        name = korea.1.b
+		
+    }
+	option = {
+		#파시즘
+        name = korea.1.c
+		
+    }
+	option = {
+		#왕정
+        name = korea.1.d
+		
+    }
+	option = {
+		#볼셰비키
+        name = korea.1.e
+		
+    }
+}

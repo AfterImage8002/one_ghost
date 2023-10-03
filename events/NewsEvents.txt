@@ -1,0 +1,25 @@
+add_namespace = egnews
+
+news_event = {
+	id = egnews.1
+	title = egnews.1.t
+	desc = egnews.1.desc
+	picture = GFX_news_event_006
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = egnews.1.a
+		trigger = {
+			NOT = {
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = egnews.1.b
+		trigger = { TAG = SOV }
+	}
+}
