@@ -11,129 +11,52 @@ focus_tree = {
     continuous_focus_position = { x = 0 y = 2800 }
     default = no
 	focus = {
-        id = KOR_new_korea
+        id = KOR_sowjetisch_liederlich
         icon = GFX_goal_tfv_saf_anti_colonialist_crusade        
-        cost = 1
-        x = 4
+        cost = 5
+        x = 9
         y = 0
         completion_reward = {
             add_political_power = 25
-            
-        }
-    }
-    focus = {
-        id = KOR_sov_give_in
-        icon = GFX_goal_generic_war_with_comintern       
-        cost = 2
-        x = 2
-        y = 1
-        prerequisite = {
-            focus = KOR_new_korea
-        }
-        mutually_exclusive = {
-            focus = KOR_fuck_sov
-        }
-        completion_reward = {
-            SOV = { country_event = sov.1 }
-            
-        }
-    }
-    focus = {
-        id = KOR_fuck_sov
-        icon = GFX_goal_anti_comintern_pact      
-        cost = 2
-        x = 6
-        y = 1
-        prerequisite = {
-            focus = KOR_new_korea
-        }
-        mutually_exclusive = {
-            focus = KOR_sov_give_in
-        }
-        completion_reward = {
-            add_political_power = 100
-            start_civil_war = {
-                ideology = bolsheviks
-                size = 0.3
+            ROOT = {
+                set_cosmetic_tag = KOR_nbp_committee
             }
         }
     }
     focus = {
-        id = KOR_select_ideologies
-        icon = GFX_focus_generic_self_management       
-        cost = 10
-        x = 6
-        y = 3
-        prerequisite = {
-            focus = KOR_fuck_sov
-        }
-        available = {
-            has_war = no
-        }
-        completion_reward = {
-            country_event = korea.1
-        }
-    }
-    focus = {
-        id = KOR_communism
-        icon = GFX_goal_support_communism       
-        cost = 0
-        x = 2
-        y = 4
-        available = {
-            always = no
-        }
-        prerequisite = {
-            focus = KOR_select_ideologies
-        }
+        id = KOR_zukunft_retten
+        icon = GFX_suckmadic
+        cost = 5
+        x = 0
+        y = 1
+        relative_position_id = KOR_sowjetisch_liederlich
+        prerequisite = { focus = KOR_sowjetisch_liederlich }
         completion_reward = {
 
         }
     }
     focus = {
-        id = KOR_minjujuui
-        icon = GFX_goal_support_democracy       
-        cost = 0
-        x = 4
-        y = 4
-        available = {
-            always = no
-        }
-        prerequisite = {
-            focus = KOR_select_ideologies
-        }
+        id = KOR_republic_of_korea
+        icon = KOR_ILOVEU
+        cost = 3
+        x = 5
+        y = 1
+        relative_position_id = KOR_zukunft_retten
+        prerequisite = { focus = KOR_zukunft_retten }
+        mutually_exclusive = { focus = KOR_people_republic_of_korea }
         completion_reward = {
-
+            
         }
     }
     focus = {
-        id = KOR_fasi
-        icon = GFX_goal_support_fascism       
-        cost = 0
-        x = 8
-        y = 4
-        available = {
-            always = no
-        }
-        prerequisite = {
-            focus = KOR_select_ideologies
-        }
-        completion_reward = {
-
-        }
-    }
-    focus = {
-        id = KOR_wangjung
-        icon = GFX_focus_generic_monarchy_1       
-        cost = 0
-        x = 10
-        y = 4
-        available = {
-            always = no
-        }
-        prerequisite = {
-            focus = KOR_select_ideologies
-        }
+        id = KOR_people_republic_of_korea
+        icon = KOR_ILOVEU
+        cost = 3
+        x = -5
+        y = 1
+        relative_position_id = KOR_zukunft_retten
+        prerequisite = { focus = KOR_zukunft_retten }
+        mutually_exclusive = { focus = KOR_republic_of_korea }
         completion_reward = {
 
         }
