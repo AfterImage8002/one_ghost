@@ -1,3 +1,28 @@
+KOR_nbp_committee = {
+	color = rgb { 133 48 48 }
+	color_ui = rgb { 133 48 48 }
+}
+KOR_demo_state = {
+	color = rgb { 7 67 163 }
+	color_ui = rgb { 7 67 163 }
+}
+KOR_busan_clique = {
+	color = rgb { 7 67 163 }
+	color_ui = rgb { 7 67 163 }
+}
+KOR_anarchy_state = {
+	color = rgb { 217 4 14 }
+	color_ui = rgb { 217 4 14 }
+}
+KOR_NEW_JAPAN = {
+	color = rgb { 214 144 184 }
+	color_ui = rgb { 214 144 184 }
+}
+KOR_JAPAN_REPUBLIC = {
+	color = rgb { 214 144 184 }
+	color_ui = rgb { 214 144 184 }
+}
+
 JAP_FRA = {
 	color = rgb { 175 13 0 }
 	color_ui = rgb { 175 13 0 }
