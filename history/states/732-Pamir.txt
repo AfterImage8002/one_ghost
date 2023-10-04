@@ -3,8 +3,7 @@ state={
 	name="STATE_732"
 
 	history={
-		owner = SIK
-		add_core_of = SIK
+		owner = KAZ
 		add_core_of = KAZ
 		victory_points = {
 			12583 1

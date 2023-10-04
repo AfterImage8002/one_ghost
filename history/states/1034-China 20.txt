@@ -1,14 +1,16 @@
-
 state={
-	id=622
-	name="STATE_622"
+	id=1034
+	name="STATE_1034"
 	resources={
-		steel=3.000
-		tungsten=3.000
+		steel=1.000
+	}
+	provinces={
+		2006 5007 10733 
 	}
 
 	history={
-		owner = CHI
+		owner = XIA
+		add_core_of = XIA
 		add_core_of = CHI
 		add_core_of = PRC
 		victory_points = {
@@ -16,18 +18,13 @@ state={
 		}
 		buildings = {
 			infrastructure = 1
-			arms_factory = 3
 			industrial_complex = 3
 
 		}
 
 	}
-
-	provinces={
-		517 1458 4939 7208 7314 7659 8049 10880 12156 12356 
-	}
-	manpower=6906200
+	manpower=102211
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=rural
 	local_supplies=0.000
 }

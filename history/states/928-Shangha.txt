@@ -6,7 +6,7 @@ state={
 		4042 7014 10034 12052 12076 
 	}
 	history = {
-		owner = CHI
+		owner = PRC
 		set_demilitarized_zone = yes
 		buildings = {
 			infrastructure = 4

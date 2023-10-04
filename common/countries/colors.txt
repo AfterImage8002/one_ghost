@@ -1,4 +1,71 @@
 #reload countrycolors
+SIK = {
+	color = rgb { 182 170 175 }
+	color_ui = rgb { 182 170 175 }
+}
+CHI = {
+	color = hsv { 0.63 0.66 0.58 } #255 244 190
+	color_ui = hsv { 0.63 0.66 0.58 }
+}
+UYG = {
+	color = rgb { 172 90 95 }
+	color_ui = rgb { 172 90 95 }
+}
+XSX = {
+	color = rgb { 152 60 65 }
+	color_ui = rgb { 152 60 65 }
+}
+XSM = {
+	color = rgb { 125 110 122 }
+	color_ui = rgb { 125 110 122 }
+}
+MON = {
+	#color = HSV { 0.1 0.15 0.4 }
+	color = rgb { 108 150 82 }
+	color_ui = rgb { 209 247 133 }
+}
+TAN = {
+	#color = HSV { 0.1 0.15 0.4 }
+	color = rgb { 168 70 62 }
+	color_ui = rgb { 209 247 133 }
+}
+PRC = {
+	color = rgb { 235 12 55 }
+	color_ui = rgb { 178 34 60 }
+}
+SIC = {
+	color = rgb { 235 132 125 }
+	color_ui = rgb { 235 142 125 }
+}
+XIA = {
+	color = rgb { 235 102 125 }
+	color_ui = rgb { 235 102 125 }
+}
+XIR = {
+	color = rgb { 185 52 25 }
+	color_ui = rgb { 185 52 25 }
+}
+SHA = {
+	color = rgb { 245 62 95 }
+	color_ui = rgb { 245 62 95 }
+}
+HEB = {
+	color = rgb { 205 72 125 }
+	color_ui = rgb { 205 72 125 }
+}
+GUI = {
+	color = rgb { 235 32 35 }
+	color_ui = rgb { 235 32 35 }
+}
+YUN = {
+	color = rgb { 145 22 15 }
+	color_ui = rgb { 145 22 15 }
+}
+GXC = {
+	color = rgb { 195 72 105 }
+	color_ui = rgb { 195 72 105 }
+}
+
 JAP = {
 	color = hsv { 0.05 0.3 1 }
 	color_ui = hsv { 0.05 0.25 1.2 }
@@ -19,7 +86,7 @@ MAN = {
 	color = rgb { 209 61 31 }
 	color_ui = rgb { 209 61 31 }
 }
-SIK = {
+KAZ = {
 	color = rgb { 218 53 103 }
 	color_ui = rgb { 198 23 83 }
 }
@@ -197,10 +264,6 @@ CAN = {
 	color = rgb { 233  59  59 }
 	color_ui = rgb { 155 62 51 }
 }
-CHI = {
-	color = hsv { 0.18 0.6 0.9 } #255 244 190
-	color_ui = hsv { 0.18 0.3 0.9 }
-}
 CHL = {
 	color = rgb { 155 101 107 }
 	color_ui = rgb { 202 131 139 }
@@ -297,26 +360,13 @@ VEN = {
 	color = rgb { 171 190 152 }
 	color_ui = rgb { 222 247 198 }
 }
-YUN = {
-	color = rgb { 114 148 80 }
-	color_ui = rgb { 222 247 198 }
-}
 USA = {
 	color = rgb { 20 133 237 }
 	color_ui = rgb { 87 160 255 }
 }
-MON = {
-	#color = HSV { 0.1 0.15 0.4 }
-	color = rgb { 108 140 42 }
-	color_ui = rgb { 209 247 133 }
-}
 MEN = {
 	color = rgb { 185  255  152 }
 	color_ui = rgb { 165  230  132 }
-}
-TAN = {
-	color = rgb { 152 130 191 }
-	color_ui = rgb { 198 169 248 }
 }
 PAR = {
 	color = rgb { 57 113 228 }
@@ -356,24 +406,9 @@ CRO = {
 	color_ui = rgb { 94 95 164 }
 }
 
-PRC = {
-	color = rgb { 245 12 55 }
-	color_ui = rgb { 178 34 60 }
-}
-
-GXC = {
-	color = rgb { 71 113 97 }
-	color_ui = rgb { 71 113 97 }
-}
-
 SHX = {
 	color = rgb { 82  2  15 }
 	color_ui = rgb { 101  30  41 }
-}
-
-XSM = {
-	color = rgb { 105 90 132 }
-	color_ui = rgb { 105 90 132 }
 }
 
 LBA = {

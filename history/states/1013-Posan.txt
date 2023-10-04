@@ -12,7 +12,8 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = GUI
+		add_core_of = GUI
 
 		add_core_of = CHI
 		add_core_of = PRC
