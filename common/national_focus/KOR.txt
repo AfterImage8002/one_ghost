@@ -72,7 +72,7 @@ focus_tree = {
         id = KOR_communism
         icon = GFX_goal_support_communism       
         cost = 0
-        x = 3
+        x = 2
         y = 4
         available = {
             always = no
@@ -88,23 +88,7 @@ focus_tree = {
         id = KOR_minjujuui
         icon = GFX_goal_support_democracy       
         cost = 0
-        x = 6
-        y = 4
-        available = {
-            always = no
-        }
-        prerequisite = {
-            focus = KOR_select_ideologies
-        }
-        completion_reward = {
-
-        }
-    }
-    focus = {
-        id = KOR_mujungbuzuui
-        icon = GFX_goal_generic_demand_territory       
-        cost = 0
-        x = 0
+        x = 4.5
         y = 4
         available = {
             always = no
@@ -120,7 +104,7 @@ focus_tree = {
         id = KOR_fasi
         icon = GFX_goal_support_fascism       
         cost = 0
-        x = 9
+        x = 7.5
         y = 4
         available = {
             always = no
@@ -136,7 +120,7 @@ focus_tree = {
         id = KOR_wangjung
         icon = GFX_focus_generic_monarchy_1       
         cost = 0
-        x = 12
+        x = 10
         y = 4
         available = {
             always = no
