@@ -1,7 +1,7 @@
 bookmarks = {
 	bookmark = {
-		name = "BLITZKRIEG_NAME"
-		desc = "BLITZKRIEG_DESC"
+		name = "bm_bolsheviks_name"
+		desc = "bm_bolsheviks_desc"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_bolsheviks"
 		default_country = "FRA"
@@ -15,7 +15,7 @@ bookmarks = {
 			}
 		}
 		effect = {
-			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
 		}
 	}
