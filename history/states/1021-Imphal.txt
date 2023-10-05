@@ -5,7 +5,8 @@ state={
 		1581 
 	}
 	history={
-		owner = RAJ
+		owner = BRM
+		add_core_of = BRM
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

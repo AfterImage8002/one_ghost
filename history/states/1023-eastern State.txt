@@ -5,7 +5,8 @@ state={
 		7619 10171 10511 
 	}
 	history={
-		owner = RAJ
+		owner = SRL
+		add_core_of = SRL
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
