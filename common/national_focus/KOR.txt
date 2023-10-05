@@ -14,7 +14,7 @@ focus_tree = {
         id = KOR_sowjetisch_liederlich
         icon = GFX_goal_tfv_saf_anti_colonialist_crusade        
         cost = 5
-        x = 9
+        x = 15
         y = 0
         completion_reward = {
             add_political_power = 25
@@ -25,7 +25,7 @@ focus_tree = {
     }
     focus = {
         id = KOR_zukunft_retten
-        icon = GFX_suckmadic
+        icon = GFX_focus_generic_improve_the_administration
         cost = 5
         x = 0
         y = 1
@@ -37,28 +37,126 @@ focus_tree = {
     }
     focus = {
         id = KOR_republic_of_korea
-        icon = KOR_ILOVEU
+        icon = GFX_goal_support_democracy
         cost = 3
-        x = 5
+        x = 7
         y = 1
         relative_position_id = KOR_zukunft_retten
         prerequisite = { focus = KOR_zukunft_retten }
         mutually_exclusive = { focus = KOR_people_republic_of_korea }
         completion_reward = {
-            
+            set_cosmetic_tag = KOR_demo_state
+        }
+    }
+    focus = {
+        id = KOR_suck_my_daegu
+        icon = GFX_focus_eng_liberate_the_home_of_marx
+        cost = 4
+        x = -1
+        y = 1
+        relative_position_id = KOR_republic_of_korea
+        prerequisite = { focus = KOR_republic_of_korea }
+         completion_reward = {
+            943 = {
+                set_demilitarized_zone = yes
+            }
+        }
+    }
+    focus = {
+        id = KOR_attack_mt_jiri_partisans
+        icon = GFX_focus_ETH_freedom_at_gunpoint
+        cost = 10
+        x = 0
+        y = 1
+        relative_position_id = KOR_suck_my_daegu
+        prerequisite = { focus = KOR_suck_my_daegu }
+         completion_reward = {
+            943 = {
+                set_demilitarized_zone = yes
+            }
+        }
+    }
+    focus = {
+        id = KOR_break_geming
+        icon = GFX_focus_spr_crush_the_revolution
+        cost = 10
+        x = 2
+        y = 1
+        relative_position_id = KOR_suck_my_daegu
+        prerequisite = { focus = KOR_suck_my_daegu }
+         completion_reward = {
+            943 = {
+                set_demilitarized_zone = yes
+            }
+        }
+    }
+    focus = {
+        id = KOR_kill_reds
+        icon = GFX_focus_secret_rearmament
+        cost = 3
+        x = 2
+        y = 1
+        relative_position_id = KOR_republic_of_korea
+        prerequisite = { focus = KOR_republic_of_korea }
+         completion_reward = {
+            943 = {
+                set_demilitarized_zone = yes
+            }
         }
     }
     focus = {
         id = KOR_people_republic_of_korea
-        icon = KOR_ILOVEU
+        icon = GFX_focus_generic_join_comintern
         cost = 3
-        x = -5
+        x = -7
         y = 1
         relative_position_id = KOR_zukunft_retten
         prerequisite = { focus = KOR_zukunft_retten }
         mutually_exclusive = { focus = KOR_republic_of_korea }
         completion_reward = {
-
+            country_event = {
+                id = korea.1
+                days = 0
+            }
         }
+    }
+    focus = {
+        id = KOR_anal
+        icon = GFX_focus_spr_anarchism_knows_no_borders
+        cost = 0
+        x = -4
+        y = 1
+        available = { always = no }
+        mutually_exclusive = { focus = KOR_anal_1 }
+        mutually_exclusive = { focus = KOR_anal_2 }
+        relative_position_id = KOR_people_republic_of_korea
+        prerequisite = { focus = KOR_people_republic_of_korea }
+        completion_reward = {
+            set_cosmetic_tag = KOR_anarchy_state
+        }
+    }
+    focus = {
+        id = KOR_anal_1
+        icon = GFX_focus_generic_join_comintern
+        cost = 0
+        x = 0
+        y = 1
+        available = { always = no }
+        relative_position_id = KOR_people_republic_of_korea
+        mutually_exclusive = { focus = KOR_anal }
+        mutually_exclusive = { focus = KOR_anal_2 }
+        prerequisite = { focus = KOR_people_republic_of_korea }
+    }
+    focus = {
+        id = KOR_anal_2
+        icon = GFX_goal_support_fourth_int
+        cost = 0
+        x = 4
+        y = 1
+        available = { always = no }
+        mutually_exclusive = { focus = KOR_anal }
+        mutually_exclusive = { focus = KOR_anal_1 }
+        relative_position_id = KOR_people_republic_of_korea
+        prerequisite = { focus = KOR_people_republic_of_korea }
     }
 }
