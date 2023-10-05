@@ -1,5 +1,10 @@
 ﻿ l_english:
-
+ TAN:0 "몽골인민혁명위원회"
+ TAN_DEF:0 "몽골인민혁명위원회"
+ TAN_ADJ:0 "몽골인민혁명위원회"
+ MON:0 "복드 칸국"
+ MON_DEF:0 "복드 칸국"
+ MON_ADJ:0 "복드 칸국"
 
  PRC:0 "중국"
  PRC_DEF:0 "중국"
@@ -586,8 +591,8 @@
  CRO_ADJ:0 "유고슬라비아"
  CRO_anarchism:0 "유고슬라비아 자유지구"
  CRO_anarchism_DEF:0 "유고슬라비아 자유지구"
- CRO_socialism:0 "유고슬라비아 혁명공화국"
- CRO_socialism_DEF:0 "유고슬라비아 혁명공화국"
+ CRO_socialism:0 "유고슬라비아 연방"
+ CRO_socialism_DEF:0 "유고슬라비아 연방"
  CRO_bolsheviks:0 "유고슬라비아 혁명공화국"
  CRO_bolsheviks_DEF:0 "유고슬라비아 혁명공화국"
  CRO_left_nationalism:0 "유고슬라비아 혁명공화국"
