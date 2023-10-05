@@ -1,5 +1,30 @@
 spriteTypes = {
 
+	### 북마크 사진
+	spriteType = {
+		name = "GFX_select_date_bolsheviks"
+		textureFile = "gfx/interface/bookmark_trotsky.dds"
+	}
+	spriteType = {
+		name = "GFX_select_date_socialism"
+		textureFile = "gfx/interface/bookmark_socialism.dds"
+	}
+	spriteType = {
+		name = "GFX_select_date_anarchy"
+		textureFile = "gfx/interface/bookmark_anarchy.dds"
+	}
+	spriteType = {
+		name = "GFX_select_date_populism"
+		textureFile = "gfx/interface/bookmark_populism.dds"
+	}
+	spriteType = {
+		name = "GFX_select_date_capitalism"
+		textureFile = "gfx/interface/bookmark_capitalism.dds"
+	}
+	spriteType = {
+		name = "GFX_select_date_reaction"
+		textureFile = "gfx/interface/bookmark_reaction.dds"
+	}
 
 
 	spriteType = {
