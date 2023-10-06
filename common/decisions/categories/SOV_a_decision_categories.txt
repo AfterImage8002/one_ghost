@@ -10,3 +10,15 @@ SOV_attack_siberia = {
 		}
 	}
 }
+FER_attacked_by_SOV = {
+    allowed = {
+        original_tag = FER
+    }
+    priority = {
+        base = 523
+        modifier = {
+            add = 2009
+            is_ai = yes
+        }
+    }
+}
