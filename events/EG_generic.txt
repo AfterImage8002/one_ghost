@@ -90,6 +90,7 @@ country_event = { #사회주의 혁명
 					has_idea = council_republic
 					has_idea = syndicalist_society
 					has_idea = industrial_relations_law
+					has_idea = state_trade_union
 				}
 			}
 		}
@@ -103,11 +104,7 @@ country_event = { #사회주의 혁명
 				has_government = left_nationalism
 			}
 			NOT = {
-				OR = {
-					has_idea = council_republic
-					has_idea = syndicalist_society
-					has_idea = industrial_relations_law
-				}
+				has_idea = state_trade_union
 			}
 		}
 		add_ideas = state_trade_union
