@@ -3,6 +3,8 @@ set_technology = {
 	synth_oil_experiments = 1
 }
 
+oob = "SOV_1936"
+
 create_faction = international
 add_to_faction = SOV
 add_to_faction = LIT
