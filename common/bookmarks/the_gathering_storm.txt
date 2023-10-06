@@ -7,9 +7,9 @@ bookmarks = {
 		default_country = "FRA"
 		default = yes
 		
-		"ITA"={
+		"FRA"={
 			history = "FRA_GATHERING_STORM_DESC"
-			ideology = left_nationalism
+			ideology = socialism
 			ideas = {
 			}
 			focuses = {
