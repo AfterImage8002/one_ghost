@@ -1,5 +1,6 @@
 SOV_attack_siberia = {
 	soviet_attacking_siberia = {
+		fire_only_once = yes
         available = {
             is_ai = yes
         }
@@ -17,4 +18,51 @@ SOV_attack_siberia = {
             }
         }
     }
+}
+
+FER_attacked_by_SOV = {
+    FER_save_nation = {
+		fire_only_once = yes
+		available = {
+			NOT = {
+				ROOT = {
+					563 = {
+						is_controlled_by = ROOT
+					}
+				}
+			}
+		}
+		activation = {
+			has_war_with = SOV
+		}
+		icon = GFX_decision_mission_icon
+		days_mission_timeout = 365
+		complete_effect = {
+			hidden_effect = {
+				white_peace = {
+					tag = SOV
+				}
+				every_owned_state = {
+					limit = {
+						NOT = {
+							state = 637
+						}
+					}
+					transfer_state_to = SOV
+				}
+			}
+			USA = {
+				set_autonomy = {
+					target = ROOT
+					autonomous_state = autonomy_supervised_state
+				}
+			}
+		}
+		timeout_effect = {
+			white_peace = {
+				tag = SOV
+			}
+			add_ideas = my_idea
+		}
+	}
 }
