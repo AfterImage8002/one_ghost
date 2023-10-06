@@ -157,6 +157,9 @@ ideologies = {
 			agrarian = { #농본사회주의
 
 			}
+			mao_zedong_thought = { #마오쩌둥 사상
+
+			}
 			jucheism = { #주체사상
 
 			}

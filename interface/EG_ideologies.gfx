@@ -67,6 +67,10 @@ spriteTypes = {
 		textureFile = "gfx/interface/ideologies/anarcho_syndicalist_group.tga"
 	}
 	spriteType = {
+		name = "GFX_ideology_mao_zedong_thought"
+		textureFile = "gfx/interface/ideologies/maoism.tga"
+	}
+	spriteType = {
 		name = "GFX_ideology_neocon"
 		textureFile = "gfx/interface/ideologies/national_conservative_group.tga"
 	}
