@@ -11,8 +11,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/idea_categories.dds"
 		noOfFrames = 7
 	}
-
-
 	
 	#Government in Exile
 
