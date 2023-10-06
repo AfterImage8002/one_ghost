@@ -5,7 +5,7 @@ state={
 		4435 12338 
 	}
 	history={
-		owner = RAJ
+		owner = BAN
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

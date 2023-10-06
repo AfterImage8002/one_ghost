@@ -1,0 +1,23 @@
+bookmarks = {
+	bookmark = {
+		name = "bm_populism_name"
+		desc = "bm_populism_desc"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_populism"
+		default_country = "FRA"
+		default = yes
+		
+		"ITA"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = left_nationalism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

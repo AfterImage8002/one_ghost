@@ -1,0 +1,22 @@
+bookmarks = {
+	bookmark = {
+		name = "bm_bolsheviks_name"
+		desc = "bm_bolsheviks_desc"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_bolsheviks"
+		default_country = "FRA"
+	
+		SOV = {
+			history = FRA_BLITZKRIEG_DESC
+			ideology = bolsheviks
+			ideas={
+			}
+			focuses = {
+			}
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
