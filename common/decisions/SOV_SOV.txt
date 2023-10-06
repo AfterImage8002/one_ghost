@@ -1,12 +1,20 @@
 SOV_attack_siberia = {
-	allowed = {
-		original_tag = SOV
-	}
-	priority = {
-		base = 3
-		modifier = {
-			add = 100
-			has_government = socialism
-		}
-	}
+	soviet_attacking_siberia = {
+        available = {
+            is_ai = yes
+        }
+        remove_effect = {
+            declare_war_on = {
+                target = FER
+                type = annex_everything
+            }
+        }
+        ai_will_do = {
+            base = 250
+            modifier = {
+                add = 10
+                has_war_with = CHI
+            }
+        }
+    }
 }
