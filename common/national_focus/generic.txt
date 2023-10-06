@@ -1913,6 +1913,7 @@ focus_tree = {
 				idea = EG_internationalism
 				days = 720
 			}
+			country_event = { id = EG_generic.1 hours = 6 }
 		}
 	}	
 	

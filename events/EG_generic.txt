@@ -1,0 +1,127 @@
+﻿add_namespace = EG_generic
+
+# President dies
+country_event = { #사회주의 혁명
+	id = EG_generic.1
+	title = EG_generic.1.t
+	desc = { 
+		text = EG_generic.1.d_good
+		trigger = {
+			AND = {
+				has_government = socialism
+				NOT = {
+					OR = {
+						has_idea = council_republic
+						has_idea = syndicalist_society
+						has_idea = industrial_relations_law
+					}
+				}
+			}
+		}
+	}
+	desc = {
+		text = EG_generic.1.d_bad
+		trigger = {
+			NOT = {
+				has_government = socialism
+				OR = {
+					has_idea = council_republic
+					has_idea = syndicalist_society
+					has_idea = industrial_relations_law
+				}
+			}
+		}
+	}
+	desc = { 
+		text = EG_generic.1.d_nc
+		trigger = {
+			OR = {
+				has_idea = council_republic
+				has_idea = syndicalist_society
+				has_idea = industrial_relations_law
+			}
+		}
+	}
+	picture = GFX_report_event_generic_rally
+
+	is_triggered_only = yes
+
+	option = { #노동자들의 공화국을 수립해라!
+		name = EG_generic.1.a
+		trigger = {
+			AND = {
+				OR = {
+					has_government = anarchism
+					has_government = socialism
+					has_government = left_nationalism
+				}
+				NOT = {
+					has_idea = syndicalist_society
+				}
+			}
+		}
+		add_ideas = syndicalist_society
+	}
+	option = { #평의회 국가를 만들자!
+		name = EG_generic.1.b
+		trigger = {
+			AND = {
+				OR = {
+					has_government = anarchism
+					has_government = socialism
+					has_government = bolsheviks
+				}
+				NOT = {
+					has_idea = council_republic
+				}
+			}
+		}
+		add_ideas = council_republic
+	}
+	option = { #노동자의 권리를 보장하라
+		name = EG_generic.1.c
+		trigger = {
+			NOT = {
+				OR = {
+					has_government = anarchism
+					has_government = socialism
+				}
+				OR = {
+					has_idea = council_republic
+					has_idea = syndicalist_society
+					has_idea = industrial_relations_law
+				}
+			}
+		}
+		add_ideas = industrial_relations_law
+	}
+	option = { #당의 감독 하에 노동조합을 수립한다.
+		name = EG_generic.1.d
+		trigger = {
+			OR = {
+				has_government = bolsheviks
+				has_government = left_nationalism
+			}
+			NOT = {
+				OR = {
+					has_idea = council_republic
+					has_idea = syndicalist_society
+					has_idea = industrial_relations_law
+				}
+			}
+		}
+		add_ideas = state_trade_union
+	}
+	option = { #혁명 만세!
+		name = EG_generic.1.e
+		trigger = {
+			OR = {
+				has_idea = council_republic
+				has_idea = syndicalist_society
+				has_idea = industrial_relations_law
+				has_idea = state_trade_union
+			}
+		}
+		add_political_power = 50
+	}
+}
