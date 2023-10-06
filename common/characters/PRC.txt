@@ -1,4 +1,23 @@
 characters={
+	PRC_li_lisan={
+		name=PRC_li_lisan
+		portraits={
+			army={
+				large="GFX_portrait_PRC_li_lisan"
+				small=GFX_idea_PRC_li_lisan
+			}
+			civilian={
+				large="GFX_portrait_PRC_li_lisan"
+				small=GFX_idea_PRC_li_lisan
+			}
+		}
+		country_leader={
+			ideology=anti_revisionism
+			traits={  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 	PRC_mao_zedong={
 		name=PRC_mao_zedong
 		portraits={

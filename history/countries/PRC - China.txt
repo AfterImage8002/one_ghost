@@ -11,6 +11,7 @@ set_technology = {
 	fleet_in_being = 1
 	basic_train = 1
 }
+recruit_character = PRC_li_lisan
 if = {
 	limit = {
 		has_dlc = "No Step Back"
@@ -93,15 +94,15 @@ set_convoys = 120
 
 
 set_politics = {
-	ruling_party = left_nationalism
+	ruling_party = bolsheviks
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = yes ##suspended through duration of war, which is handled via event
 }
 set_popularities = {
-	bolsheviks = 25
+	bolsheviks = 35
 	socialism = 25
-	left_nationalism = 45
+	left_nationalism = 35
 	modified_capitalism = 5
 }
 

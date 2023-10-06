@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_PRC_li_lisan"
+		textureFile = "gfx/leaders/PRC/PRC_li_lisan.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_li_lisan"
+		textureFile = "gfx/interface/advisor/PRC_li_lisan.tga"
+	}
+}
