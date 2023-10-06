@@ -1,0 +1,15 @@
+characters = {
+	MON_roman = { #미친남작
+		name=MON_roman
+		portraits={
+			civilian={
+				large="gfx/leaders/MON/roman.dds"
+			}
+		}
+		country_leader={
+			ideology=monarchy
+			expire="1966.1.1.1"
+			id=-1
+		}
+	}
+}

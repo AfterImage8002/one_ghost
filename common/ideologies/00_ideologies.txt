@@ -299,9 +299,6 @@ ideologies = {
 			nobility = {
 
 			}
-			nobility = {
-
-			}
 		}
 
 		dynamic_faction_names = {

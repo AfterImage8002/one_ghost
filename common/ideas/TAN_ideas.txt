@@ -1,0 +1,14 @@
+ideas = {
+	country = {
+		TAN_SOV_support = { #볼셰비키의 지원
+			picture = generic_communist_army
+			targeted_modifier = {
+				tag = MON
+				attack_bonus_against = 0.3
+			}	
+			modifier = {
+				army_speed_factor = 0.2
+			}		
+		}
+	}
+}

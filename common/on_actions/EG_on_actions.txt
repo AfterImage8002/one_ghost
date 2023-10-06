@@ -1,0 +1,13 @@
+on_actions = {
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					tag = MON
+					has_war_with = TAN
+				}
+				news_event = egnews.2
+			}
+		}
+	}
+}

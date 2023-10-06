@@ -23,3 +23,26 @@ news_event = {
 		trigger = { TAG = SOV }
 	}
 }
+news_event = { #몽골 혁명의 성공
+	id = egnews.2
+	title = egnews.2.t
+	desc = egnews.2.d
+	picture = GFX_news_event_018
+	
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = egnews.2.a
+		trigger = {
+			NOT = {
+				TAG = TAN
+			}
+		}
+	}
+	option = {
+		name = egnews.2.b
+		trigger = { TAG = TAN }
+	}
+}
