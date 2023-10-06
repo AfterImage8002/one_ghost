@@ -1,7 +1,7 @@
 bookmarks = {
 	bookmark = {
-		name = "bm_anarchism_name"
-		desc = "bm_anarchism_desc"
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_anarchy"
 		default_country = "FRA"

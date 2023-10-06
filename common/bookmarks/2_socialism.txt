@@ -1,7 +1,7 @@
 bookmarks = {
 	bookmark = {
-		name = "bm_socialism_name"
-		desc = "bm_socialism_desc"
+		name = "BLITZKRIEG_NAME"
+		desc = "BLITZKRIEG_DESC"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_socialism"
 		default_country = "FRA"
