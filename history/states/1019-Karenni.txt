@@ -5,8 +5,8 @@ state={
 		12317 
 	}
 	history={
-		owner = BRM
-		add_core_of = BRM
+		owner = SIA
+		add_core_of = SIA
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
