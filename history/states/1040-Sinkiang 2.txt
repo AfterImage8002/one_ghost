@@ -1,0 +1,24 @@
+state={
+	id=1040
+	name="STATE_1040"
+	history={
+		owner = UYG
+		add_core_of = UYG
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+
+		}
+		victory_points = {
+			4973 1 
+		}
+
+	}
+	provinces={
+		4973 10911 
+	}
+	manpower=29000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

@@ -1,0 +1,22 @@
+state={
+	id=1039
+	name="STATE_1039"
+	provinces={
+		1970 5087 8112 
+	}
+	history={
+		owner = UYG
+		add_core_of = UYG
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	manpower=230700
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

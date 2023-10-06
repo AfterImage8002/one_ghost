@@ -1049,7 +1049,7 @@
 1048;5;39;190;land;true;plains;1
 1049;5;39;248;sea;false;ocean;0
 1050;5;40;232;lake;false;lakes;0
-1051;5;42;5;land;true;hills;6
+1051;5;42;5;land;false;hills;6
 1052;5;42;155;land;true;plains;6
 1053;5;42;210;land;false;plains;6
 1054;5;45;70;land;true;hills;6
@@ -1065,7 +1065,7 @@
 1064;5;57;85;land;false;desert;5
 1065;5;57;135;land;true;plains;7
 1066;5;60;50;land;false;mountain;6
-1067;5;60;200;land;true;hills;6
+1067;5;60;200;land;false;hills;6
 1068;5;63;15;land;false;desert;5
 1069;5;63;165;land;false;urban;6
 1070;5;63;220;land;true;plains;6
@@ -4094,7 +4094,7 @@
 4093;47;87;198;land;false;hills;6
 4094;47;90;13;land;true;hills;6
 4095;47;90;163;land;false;hills;1
-4096;47;90;218;land;true;mountain;6
+4096;47;90;218;land;false;mountain;6
 4097;47;93;78;land;false;hills;5
 4098;47;93;128;land;true;hills;1
 4099;47;93;183;land;true;mountain;6
@@ -12520,7 +12520,7 @@
 12519;176;18;142;land;false;plains;5
 12520;176;18;197;land;false;desert;6
 12521;176;21;57;land;false;forest;6
-12522;176;21;162;land;true;forest;6
+12522;176;21;162;land;false;forest;6
 12523;176;24;22;land;false;forest;6
 12524;176;24;77;land;false;desert;6
 12525;176;24;227;land;false;forest;6
@@ -13282,12 +13282,12 @@
 13279;108;25;236;land;true;plains;6 #대만
 13280;109;142;17;land;true;plains;6 #대만
 13281;244;207;90;land;true;plains;6 #대만
-13282;22;12;116;land;false;mountain;6
+13282;22;12;116;land;true;mountain;6
 
 13283;212;248;179;land;true;plains;6 #캄차카
-13284;173;164;26;land;true;plains;6 #캄차카
+13284;173;164;26;land;false;plains;6 #캄차카
 13285;81;18;27;land;true;plains;6 #캄차카
-13286;90;115;221;land;true;plains;6 #캄차카
+13286;90;115;221;land;false;plains;6 #캄차카
 13287;147;246;122;land;true;plains;6 #캄차카
 13288;41;124;134;land;true;plains;6 #캄차카
 13289;90;12;180;land;true;plains;6 #캄차카
@@ -13297,35 +13297,36 @@
 13293;63;114;67;land;true;plains;1 #이게 뭐노
 13294;89;12;4;land;true;plains;1 #이게 뭐노
 13295;45;97;23;land;true;plains;1 #이게 뭐노
-13296;53;8;67;land;true;plains;1 #이게 뭐노
-13297;9;43;177;land;true;plains;1 #이게 뭐노
+13296;53;8;67;land;false;plains;1 #이게 뭐노
+13297;9;43;177;land;false;plains;1 #이게 뭐노
 13298;22;12;126;land;true;plains;1 #이게 뭐노
 13299;84;89;142;land;true;plains;1 #이게 뭐노
 
 #일본
 13300;200;97;5;land;false;plains;6
 13301;193;188;45;land;false;plains;6
-13302;68;209;85;land;false;plains;6
-13303;216;53;118;land;false;plains;6
-13304;55;248;10;land;false;plains;6
-13305;33;131;35;land;false;plains;6
+13302;68;209;85;land;true;plains;6
+13303;216;53;118;land;true;plains;6
+13304;55;248;10;land;true;plains;6
+13305;33;131;35;land;true;plains;6
 13306;107;33;131;land;false;plains;6
-13307;66;139;157;land;false;plains;6
-13308;35;28;180;land;false;plains;6
+13307;66;139;157;land;true;plains;6
+13308;35;28;180;land;true;plains;6
 13309;120;127;41;land;false;plains;6
-13310;19;131;119;land;false;plains;6
-13311;33;158;163;land;false;plains;6
-13312;168;190;81;land;false;plains;6
-13313;163;33;158;land;false;plains;6
+13310;19;131;119;land;true;plains;6
+13311;33;158;163;land;true;plains;6
+13312;168;190;81;land;true;plains;6
+13313;163;33;158;land;true;plains;6
 13314;33;137;163;land;false;plains;6
 13315;147;89;201;land;false;plains;6
 13316;33;163;33;land;false;plains;6
-13317;212;32;163;land;false;plains;6
+13317;212;32;163;land;true;plains;6
 13318;85;131;69;land;false;plains;6
 13319;30;135;87;land;false;plains;6
-13320;179;76;217;land;false;plains;6
+13320;179;76;217;land;true;plains;6
 13321;244;10;109;land;false;plains;6
 13322;21;48;187;land;false;plains;6
 13323;173;182;98;land;false;plains;6
-13324;31;156;155;land;false;plains;6
-13325;83;150;62;land;false;plains;6
+13324;31;156;155;land;true;plains;6
+13325;83;150;62;land;true;plains;6
+13326;176;47;202;land;false;plains;6

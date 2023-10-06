@@ -1,0 +1,24 @@
+state={
+	id=1041
+	name="STATE_1041"
+	history={
+		owner = HEB
+		add_core_of = HEB
+		add_core_of = PRC
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			1590 2 
+		}
+
+	}
+	provinces={
+		828 952 1137 1489 1590 3955 6904 9776 10397 
+	}
+	manpower=860000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}
