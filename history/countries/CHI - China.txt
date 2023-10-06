@@ -20,4 +20,6 @@ set_popularities = {
 	authoritarianism = 70
 }
 
+recruit_character = CHI_chiang_kaishek
+
 add_opinion_modifier = { target = PRC modifier = hostile_status }
