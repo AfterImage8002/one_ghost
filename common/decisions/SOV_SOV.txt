@@ -1,0 +1,12 @@
+SOV_attack_siberia = {
+	allowed = {
+		original_tag = SOV
+	}
+	priority = {
+		base = 3
+		modifier = {
+			add = 100
+			has_government = socialism
+		}
+	}
+}
