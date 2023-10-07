@@ -18,22 +18,11 @@ add_manpower = 50000
 add_war_support = 0.15
 add_stability = 0.25
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = authoritarianism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
-
 set_popularities = {
-	democratic = 0
-	fascism = 0
-	communism = 0
-	neutrality = 100
-
-}
-set_politics = {
-	ruling_party = neutrality
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
+	authoritarianism = 100
 }
