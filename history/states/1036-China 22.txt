@@ -1,9 +1,7 @@
+
 state={
 	id=1036
 	name="STATE_1036"
-	provinces={
-		556 1647 1985 3745 5025 6638 8081 
-	}
 
 	history={
 		owner = XSX
@@ -19,6 +17,10 @@ state={
 			12732 3 
 		}
 
+	}
+
+	provinces={
+		556 1985 3745 5025 6638 8081 
 	}
 	manpower=510102
 	buildings_max_level_factor=1.000

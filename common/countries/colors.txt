@@ -1,4 +1,8 @@
 #reload countrycolors
+SHC = {
+	color = rgb { 78 124 118 }
+	color_ui = rgb { 78 124 118 }
+}
 SIK = {
 	color = rgb { 182 170 175 }
 	color_ui = rgb { 182 170 175 }
