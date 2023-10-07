@@ -15,6 +15,63 @@ bookmarks = {
 			focuses = {
 			}
 		}
+		"ENG"={
+			history = "ENG_EG_HISTORY_DESC"
+			ideology = socialism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"PRE"={
+			history = "PRE_EG_HISTORY_DESC"
+			ideology = socialism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"SOV"={
+			history = "SOV_EG_HISTORY_DESC"
+			ideology = bolsheviks
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"PRC"={
+			history = "PRC_EG_HISTORY_DESC"
+			ideology = bolsheviks
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"SCO"={
+			history = "SCO_EG_HISTORY_DESC"
+			ideology = let_do
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"USA"={
+			history = "USA_EG_HISTORY_DESC"
+			ideology = modified_capitalism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"ITA"={
+			history = "ITA_EG_HISTORY_DESC"
+			ideology = left_nationalism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
