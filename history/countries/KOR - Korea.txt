@@ -26,6 +26,10 @@ set_technology = {
 	fuel_refining = 1
 }
 
+set_country_flag = country_has_gui
+set_country_flag = gui_alert_visible
+set_country_flag = gui_alert_visible_2
+
 if = {
 	limit = {
 		has_dlc = "Man the Guns"

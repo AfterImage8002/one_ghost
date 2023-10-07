@@ -1,0 +1,170 @@
+guiTypes = {
+	containerWindowType = {
+		name = "TNO_KOR_LegCo_AccessButton"
+		size = { width = 220 height = 128 }
+		position = { x = 0 y = 289 }
+
+		buttonType = {
+			name = "TNO_KOR_LegCo_OpenButton"
+			quadTextureSprite = "GFX_KOR_Open_Legco"
+			scale = 0.68
+			position = { x = 238 y = 36 }
+			pdx_tooltip = KOR_legco_tt
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+
+		iconType = {
+			name = "gui_alert"
+			spriteType = "GFX_gui_alert"
+			position = { x=189 y=-16 }
+		}
+	}
+
+	containerWindowType = {
+		name = "KOR_legco_ord"
+		position = { x = 0 y = 0 }
+		size = { width = 216 height = 62 }
+
+		instantTextboxType = {
+			name = "ordinance_name"
+			position = { x = 42 y = 9 }
+			font = "aldrich_18_outline"
+			text = "KOR_legco_historic_ordinance_title"
+			maxWidth = 164
+			format = center
+			alwaystransparent = yes
+			multiline = yes
+
+			maxHeight = 40
+			vertical_alignment = center
+		}
+
+		iconType = {
+			name = "history_letterhead"
+			quadTextureSprite = "GFX_KOR_LegCo_Ordinance_History_Letterhead"
+			position = { x = 0 y = 0}
+		}
+
+		iconType = {
+			name = "history_symbol"
+			quadTextureSprite = "GFX_KOR_LegCo_Ordinance_Symbol"
+			position = { x = 11 y = 16 }
+		}
+
+		iconType = {
+			name = "history_bg"
+			spriteType = "GFX_KOR_LegCo_Ordinance_History_Background"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = "KOR_legco_historic_ordinance_tt"
+		}
+	}
+
+
+	containerWindowType = {
+		name = "TNO_KOR_LegCo_Display"
+		size = { width = 1188 height = 812 }
+		position = { x = 538 y = 77 }
+		show_sound = open_sub_window
+		moveable = yes
+		clipping = no
+
+		background = {
+			name = "Background"
+			spriteType = "GFX_tiled_window_thin_border2"
+		}
+
+		instantTextboxType = {
+			name = "legco_title"
+			position = { x = 0 y = 35 }
+			font = "hoi_20b"
+			text = KOR_gyeum
+			maxWidth = 920
+			format = center
+			alwaystransparent = yes
+		}
+
+		instantTextboxType = {
+			name = "legco_session_status"
+			position = { x = 0 y = 75 }
+			font = "hoi_20b"
+			text = KOR_gyeum_session_status
+			maxWidth = 920
+			format = center
+			alwaystransparent = yes
+		}
+
+#		buttonType = {
+#			name = "TNO_KOR_legco_close_button"
+#			position = { x = -320 y = 14 }
+#			quadTextureSprite = "GFX_Kartenhaus_CloseButton"
+#			Orientation = "UPPER_RIGHT"
+#			clicksound = click_close
+#			shortcut = "ESCAPE"
+#		}
+	}
+
+	containerWindowType = {
+		name = "KOR_legco_seat"
+		position = { x = 0 y = 0 }
+
+		iconType = {
+			name = "parliament_dot_icon"
+			quadTextureSprite = "GFX_KOR_LegCo_Seat"
+			pdx_tooltip = "KOR_legco_seat_tt"
+		}
+	}
+
+	containerWindowType = {
+		name = "KOR_legco_group"
+		position = { x = 0 y = 0}
+
+		instantTextboxType = {
+			name = "title"
+			position = { x = 0 y = 15 }
+			font = "aldrich_24_outline"
+			text = KOR_legco_faction_title
+			maxWidth = 158
+			format = center
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "legco_faction_icon"
+			position = { x = 24 y = 45 }
+			quadTextureSprite = "GFX_KOR_LegCo_Sony_Small"
+		}
+
+		instantTextboxType = {
+			name = "seats"
+			position = { x = 0 y = 163 }
+			font = "aldrich_24_outline"
+			text = KOR_legco_faction_seats
+			maxWidth = 158
+			format = center
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "legco_box"
+			spriteType = "GFX_KOR_LegCo_Box"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = "KOR_legco_faction_tt"
+		}
+
+		buttonType = {
+			name = "sub_seat"
+			spriteType = "GFX_subtract_one"
+			position = { x = 5 y = 165 }
+			scale = 1
+			pdx_tooltip = KOR_legco_debug_sub_seat_tt
+		}
+		buttonType = {
+			name = "add_seat"
+			spriteType = "GFX_add_one"
+			position = { x = 126 y = 165 }
+			scale = 1
+			pdx_tooltip = KOR_legco_debug_add_seat_tt
+		}
+	}
+}
