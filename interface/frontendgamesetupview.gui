@@ -30,12 +30,21 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name ="TLE_year_label_1"
-			position = { x = 15 y = 147 }
+			position = { x = -80 y = 147 }
 			textureFile = ""
 			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
-			text = "붉은 여명이 떠오르는 1936년 1월 1일"
-			format = center
+			text = "붉은 여명이 떠오르는"
+			format = right
+		}
+		instantTextBoxType = {
+			name ="TLE_year_label_2"
+			position = { x = 26 y = 147 }
+			textureFile = ""
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "1936년 1월 1일"
+			format = right
 		}
 	}
 	}
