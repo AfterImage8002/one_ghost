@@ -47,17 +47,17 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		"SCO"={
-			history = "SCO_EG_HISTORY_DESC"
-			ideology = let_do
+		"USA"={
+			history = "USA_EG_HISTORY_DESC"
+			ideology = modified_capitalism
 			ideas = {
 			}
 			focuses = {
 			}
 		}
-		"USA"={
-			history = "USA_EG_HISTORY_DESC"
-			ideology = modified_capitalism
+		"SCO"={
+			history = "SCO_EG_HISTORY_DESC"
+			ideology = let_do
 			ideas = {
 			}
 			focuses = {
