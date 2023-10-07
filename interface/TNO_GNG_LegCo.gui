@@ -2,7 +2,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "TNO_KOR_LegCo_AccessButton"
 		size = { width = 220 height = 128 }
-		position = { x = 0 y = 289 }
+		position = { x = -200 y = 850 }
 
 		buttonType = {
 			name = "TNO_KOR_LegCo_OpenButton"
@@ -12,12 +12,6 @@ guiTypes = {
 			pdx_tooltip = KOR_legco_tt
 			clicksound = click_default
 			oversound = ui_menu_over
-		}
-
-		iconType = {
-			name = "gui_alert"
-			spriteType = "GFX_gui_alert"
-			position = { x=189 y=-16 }
 		}
 	}
 
