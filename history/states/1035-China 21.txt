@@ -1,9 +1,7 @@
+
 state={
 	id=1035
 	name="STATE_1035"
-	provinces={
-		531 1933 2022 4313 7397 7911 12797 12882 
-	}
 
 	history={
 		owner = XIA
@@ -21,6 +19,9 @@ state={
 
 	}
 
+	provinces={
+		531 1933 2022 4313 7397 7911 12797 12882 
+	}
 	manpower=1980102
 	buildings_max_level_factor=1.000
 	state_category=rural

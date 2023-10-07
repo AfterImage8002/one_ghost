@@ -1,0 +1,74 @@
+﻿division_template = {
+	name = "Luchün Shih"			
+	division_names_group = WRL_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "T'iaocheng Shih"			
+	division_names_group = WRL_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 } 
+	}
+}
+
+division_template = {
+	name = "Pao-an Tuán"	
+	division_names_group = WRL_INF_03
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "Luchün Ti 86 Shih"
+		location = 7314
+		division_template = "T'iaocheng Shih"
+		start_equipment_factor = 0.4
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Luchün Ti 84 Shih"
+		location = 1458
+		division_template = "T'iaocheng Shih"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+
+	}
+}
+
+### STARTING PRODUCTION ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "SHC"
+		}
+		requested_factories = 2
+		progress = 0.74
+		efficiency = 100
+	}
+}

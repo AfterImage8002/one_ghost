@@ -1,133 +1,150 @@
 ﻿division_template = {
-	name = "Juntuán"				# Represents: German-trained divisions (better equipment than rest),
+	name = "Ti 1 Fangmienchün Chüntuan"				 								 
 	division_names_group = CHI_INF_01
-									# 	as well as two-division infantry corps (generally poorly-equipped militias),
-	regiments = {					#	and local militia groups.
-		infantry = { x = 0 y = 0 }	# Note: Chinese divisions were brigade-sized compared other nations' armies
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-	}
-
-	priority = 0 # garrison
-}
-division_template = {
-	name = "Sanjiao Jun"			# Represents three-division infantry corps (generally poorly-equipped militias)
-	division_names_group = CHI_INF_01
-
+	is_locked = yes
+	force_allow_recruiting = no
 	regiments = {
-		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 0 }	 
 		infantry = { x = 0 y = 1 }
-		infantry = { x = 1 y = 0 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }	 
+		infantry = { x = 1 y = 0 }	 
 		infantry = { x = 1 y = 1 }
-		infantry = { x = 2 y = 0 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 2 y = 0 }	 
 		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 3 }	 
 	}
 }
+
+#division_template = {
+#	name = "Ti 1 Fangmienchün Chüntuan (4 regiments)"				 							 
+#	division_names_group = CHI_INF_01
+#	regiments = {
+#		infantry = { x = 0 y = 0 }	 
+#		infantry = { x = 0 y = 1 }
+#		infantry = { x = 1 y = 0 }
+#		infantry = { x = 1 y = 1 }
+#		infantry = { x = 2 y = 0 }	 
+#		infantry = { x = 2 y = 1 }
+#		infantry = { x = 3 y = 0 }
+#		infantry = { x = 3 y = 1 }
+#	}
+#}
+
 division_template = {
-	name = "Qibing Jun"		# Represents two-division cavalry corps (generally poorly-equipped)
-	division_names_group = CHI_CAV_01
-
+	name = "Ti 1 Fangmienchün Chün"				 							 
+	division_names_group = CHI_INF_02
+	is_locked = yes
+	force_allow_recruiting = no
 	regiments = {
-		cavalry = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 1 y = 0 }
-		cavalry = { x = 1 y = 1 }
+		infantry = { x = 0 y = 0 }	 
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }	 
+		infantry = { x = 2 y = 1 }	 
 	}
 }
 
-### OOB ###
+division_template = {
+	name = "Tsungtui"				 							 
+	division_names_group = CHI_INF_03
+	regiments = {
+		infantry = { x = 0 y = 0 }	 
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }	 
+		infantry = { x = 2 y = 1 }	 
+	}
+}
+
+division_template = {
+	name = "Minping T'uan"	
+	division_names_group = CHI_INF_02
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+}
+
 units = {
-	##### Eighth Route Army (CO: Mao Zedong, Zhu De) #####
+	#####First Front Red Army
 	division = {
-		name = "115 Bubing Shi"
-		location = 1458
-		division_template = "Juntuán"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.8
-
-	}
-	division = {
-		name = "120 Bubing Shi"
-		location = 7208
-		division_template = "Juntuán"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.8
-
+		name = "Ti 1 Fangmienchün Ti 1 Chüntuan" #【1935年11月3日：第1、2、4師】
+		location = 10880 # Tingpien  
+		division_template =  "Ti 1 Fangmienchün Chüntuan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9 
+		start_manpower_factor = 0.9 #10000餘人
 	}
 	division = {
-		name = "129 Bubing Shi"
-		location = 517
-		division_template = "Juntuán"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.8
-
+		name = "Ti 1 Fangmienchün Ti 15 Chüntuan" #【1935年11月3日：第75師第223、225團，第78師第232、234團，第81師第241、243團】【1936年4月1日：第73、75、78師】
+		location = 4939 # Hwansien 
+		division_template =  "Ti 1 Fangmienchün Chüntuan"
+		start_experience_factor = 0.3 
+		start_equipment_factor = 0.8  
+		start_manpower_factor = 0.8 #7000餘人
 	}
-	
-	### Provincial Forces ###
-	division = { #  "1 Shensi Juntuán"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 12156
-		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
-		start_equipment_factor = 0.5
-
+	division = {
+		name = "Ti 1 Fangmienchün Ti 28 Chün" #【1935年12月30日】
+		location = 8049 # Yenan
+		division_template = "Ti 1 Fangmienchün Chün"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7   
+		start_manpower_factor = 0.7 #1500餘人  
 	}
-	division = { #  "2 Shensi Juntuán"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 2
-		}
-		location = 517
-		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
-		start_equipment_factor = 0.5
-
+	division = {
+		name = "Ti 1 Fangmienchün Ti 29 Chün" #【1935年12月30日：第1、2團】【1936年4月1日：第255、256、257團】
+		location = 7208 # Yenchwan
+		division_template = "Ti 1 Fangmienchün Chün"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7  
+		start_manpower_factor = 0.7 #800餘人  
 	}
-	division = { #  "3 Shensi Juntuán"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 3
-		}
-		location = 517
-		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
-		start_equipment_factor = 0.5
-
+	division = {
+		name = "Ti 1 Fangmienchün Ti 30 Chün" #【1936年4月1日：第262、263、264團】
+		location = 12356 # Anting
+		division_template = "Ti 1 Fangmienchün Chün"
+		start_experience_factor = 0.2 
+		start_equipment_factor = 0.7  
+		start_manpower_factor = 0.7 #1000餘人  
 	}
-	division = { #  "4 Shensi Juntuán"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
-		location = 8049
-		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
-		start_equipment_factor = 0.5
-
-	}
-	division = { #  "5 Shensi Juntuán"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 5
-		}
-		location = 8049
-		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
-		start_equipment_factor = 0.5
-
-	}
+#	division = {
+#		name = "紅27軍" #【1936年12月：第81師】
+#		location = 7208
+#		division_template = "中國工農紅軍"
+#		start_experience_factor = 0.1
+#		start_equipment_factor = 0.15
+#	}
+#	division = {
+#		name = "獨立1師" #【1936年12月】
+#		location = 12356
+#		division_template = "中國工農紅軍"
+#		start_experience_factor = 0.1
+#		start_equipment_factor = 0.15
+#	}
+#	division = {
+#		name = "獨立2師" #【1936年12月】
+#		location = 12356
+#		division_template = "中國工農紅軍"
+#		start_experience_factor = 0.1
+#		start_equipment_factor = 0.15
+#	}
 }
 
-
-
-
+##### STARTING PRODUCTION #####
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_0
 			creator = "CHI"
 		}
-		requested_factories = 2
-		progress = 0.55
+		requested_factories = 5
+		progress = 0.33
 		efficiency = 100
-	}	
+	}
 }
