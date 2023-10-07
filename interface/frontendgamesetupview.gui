@@ -29,15 +29,22 @@ guiTypes = {
 		}
 
 		instantTextBoxType = {
-			name = "date"
-			position = { x = 22 y = 147 }
+			name ="TLE_year_label_1"
+			position = { x = -100 y = 147 }
+			textureFile = ""
 			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
-			text = "FE_BOOKMARK_DATE"
-			maxWidth = 185
-			maxHeight = 20
-			fixedsize = yes
-			format = centre
+			text = "혁명 마려운"
+			format = right
+		}
+		instantTextBoxType = {
+			name ="TLE_year_label_2"
+			position = { x = 6 y = 147 }
+			textureFile = ""
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "1936년 1월 1일"
+			format = right
 		}
 	}
 

@@ -66,3 +66,15 @@ FER_attacked_by_SOV = {
 		}
 	}
 }
+debug_decs = {
+	smd = {
+		available = {
+			original_tag = CHI
+		}
+		complete_effect = {
+			525 = {
+				impassible = yes
+			}
+		}
+	}
+}

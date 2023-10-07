@@ -22,3 +22,8 @@ FER_attacked_by_SOV = {
         }
     }
 }
+debug_decs = {
+    allowed = {
+        is_debug = yes
+    }
+}
