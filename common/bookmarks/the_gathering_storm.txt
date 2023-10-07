@@ -71,6 +71,60 @@ bookmarks = {
 			focuses = {
 			}
 		}
+		"CHI"={
+			minor = yes
+			history = "CHI_EG_HISTORY_DESC"
+			ideology = authoritarianism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"KOR"={
+			minor = yes
+			history = "KOR_EG_HISTORY_DESC"
+			ideology = authoritarianism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"EZO"={
+			minor = yes
+			history = "EZO_EG_HISTORY_DESC"
+			ideology = socialism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"POL"={
+			minor = yes
+			history = "POL_EG_HISTORY_DESC"
+			ideology = socialism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"HUN"={
+			minor = yes
+			history = "HUN_EG_HISTORY_DESC"
+			ideology = socialism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"CZE"={
+			minor = yes
+			history = "CZE_EG_HISTORY_DESC"
+			ideology = socialism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
 		
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
