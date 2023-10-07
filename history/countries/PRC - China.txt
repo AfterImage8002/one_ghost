@@ -1,5 +1,7 @@
 ﻿capital = 613 # Nanjing
 
+oob = "PRC_1936"
+
 set_stability = 0.5
 set_war_support = 0.7
 # Starting tech
@@ -186,4 +188,14 @@ if = {
 			rear_1_custom_slot = empty
 		}
 	}
+}
+
+SHA = {
+	give_military_access = PRC
+}
+XIA = {
+	give_military_access = PRC
+}
+HEB = {
+	give_military_access = PRC
 }
