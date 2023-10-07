@@ -10,7 +10,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "bookmark_entry"
 		position = { x= 0 y = 0 }
-		size = { width=2320 height=2110}
+		size = { width=232 height=211}
 		clipping = no
 		fade_time = 500
 		fade_type = linear
@@ -30,23 +30,22 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name ="TLE_year_label_1"
-			position = { x = -80 y = 147 }
+			position = { x = -100 y = 147 }
 			textureFile = ""
 			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
-			text = "붉은 여명이 떠오르는"
+			text = "혁명 마려운"
 			format = right
 		}
 		instantTextBoxType = {
 			name ="TLE_year_label_2"
-			position = { x = 26 y = 147 }
+			position = { x = 6 y = 147 }
 			textureFile = ""
 			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
 			text = "1936년 1월 1일"
 			format = right
 		}
-	}
 	}
 
 	containerWindowType = {
