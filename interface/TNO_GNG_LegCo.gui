@@ -88,14 +88,14 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
-#		buttonType = {
-#			name = "TNO_KOR_legco_close_button"
-#			position = { x = -320 y = 14 }
-#			quadTextureSprite = "GFX_Kartenhaus_CloseButton"
-#			Orientation = "UPPER_RIGHT"
-#			clicksound = click_close
-#			shortcut = "ESCAPE"
-#		}
+		buttonType = {
+			name = "TNO_KOR_legco_close_button"
+			position = { x = -320 y = 14 }
+			quadTextureSprite = "GFX_decision_category_SOV_support_the_poum"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			shortcut = "ESCAPE"
+		}
 	}
 
 	containerWindowType = {

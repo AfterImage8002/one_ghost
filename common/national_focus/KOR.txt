@@ -71,7 +71,7 @@ focus_tree = {
         relative_position_id = KOR_suck_my_daegu
         prerequisite = { focus = KOR_suck_my_daegu }
          completion_reward = {
-            943 = {
+            950 = {
                 set_demilitarized_zone = yes
             }
         }
@@ -99,9 +99,7 @@ focus_tree = {
         relative_position_id = KOR_republic_of_korea
         prerequisite = { focus = KOR_republic_of_korea }
          completion_reward = {
-            943 = {
-                set_demilitarized_zone = yes
-            }
+            custom_effect_tooltip = KOR_now_gyeum
         }
     }
     focus = {
