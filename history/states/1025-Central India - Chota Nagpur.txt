@@ -1,18 +1,23 @@
+
 state={
 	id=1025
 	name="STATE_1025"
-	provinces={
-		7574 8120 10401 10801 
-	}
+
 	history={
 		owner = RAJ
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+
 		}
+
 	}
-	state_category=rural
+
+	provinces={
+		1510 7497 7574 8120 10401 12375 12480 
+	}
 	manpower=1178600
 	buildings_max_level_factor=1.000
+	state_category=rural
 	local_supplies=0.000
 }

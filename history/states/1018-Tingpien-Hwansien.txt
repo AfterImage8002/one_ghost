@@ -1,6 +1,6 @@
 state={
-	id=1043
-	name="STATE_1043"
+	id=1018
+	name="STATE_1018"
 	history={
 		owner = CHI
 		add_core_of = PRC
