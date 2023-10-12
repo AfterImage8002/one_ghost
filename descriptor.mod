@@ -1,5 +1,8 @@
 version="0.0.1"
 replace_path="map"
+replace_path="map/strategicregions"
+replace_path="map/supplyareas"
+replace_path="map/terrain"
 replace_path="common/achievements"
 replace_path="common/ai_equipment"
 replace_path="common/ai_focuses"
