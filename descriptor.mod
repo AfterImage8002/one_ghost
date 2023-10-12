@@ -1,4 +1,5 @@
 version="0.0.1"
+replace_path="map"
 replace_path="common/achievements"
 replace_path="common/ai_equipment"
 replace_path="common/ai_focuses"
