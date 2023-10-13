@@ -1,0 +1,92 @@
+EG_remove_ideological_opinion_modifier = {
+	if = {
+		limit = {
+			has_opinion_modifier = compatriot_republic
+		}
+		remove_opinion_modifier = {
+			target = ROOT
+			modifier = compatriot_republic
+		}
+	}
+	if = {
+		limit = {
+			has_opinion_modifier = capitalist_oppressor
+		}
+		remove_opinion_modifier = {
+			target = ROOT
+			modifier = capitalist_oppressor
+		}
+	}
+	if = {
+		limit = {
+			has_opinion_modifier = socialist_mob
+		}
+		remove_opinion_modifier = {
+			target = ROOT
+			modifier = socialist_mob
+		}
+	}
+	if = {
+		limit = {
+			has_opinion_modifier = business_partner
+		}
+		remove_opinion_modifier = {
+			target = ROOT
+			modifier = business_partner
+		}
+	}
+}
+EG_selfremove_ideological_opinion_modifier = {
+	if = {
+		limit = {
+			ROOT = {
+				has_opinion_modifier = compatriot_republic
+			}
+		}
+		ROOT = {
+			remove_opinion_modifier = {
+				target = PREV
+				modifier = compatriot_republic
+			}
+		}
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_opinion_modifier = capitalist_oppressor
+			}
+		}
+		ROOT = {
+			remove_opinion_modifier = {
+				target = PREV
+				modifier = capitalist_oppressor
+			}
+		}
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_opinion_modifier = socialist_mob
+			}
+		}
+		ROOT = {
+			remove_opinion_modifier = {
+				target = PREV
+				modifier = socialist_mob
+			}
+		}
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_opinion_modifier = business_partner
+			}
+		}
+		ROOT = {
+			remove_opinion_modifier = {
+				target = PREV
+				modifier = business_partner
+			}
+		}
+	}
+}

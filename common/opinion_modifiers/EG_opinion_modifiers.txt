@@ -1,0 +1,14 @@
+opinion_modifiers = {
+	compatriot_republic = {
+		value = 25
+	}
+	capitalist_oppressor = {
+		value = -40
+	}
+	socialist_mob = {
+		value = -40
+	}
+	business_partner = {
+		value = 5
+	}
+}

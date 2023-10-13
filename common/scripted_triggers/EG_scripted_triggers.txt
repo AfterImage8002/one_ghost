@@ -1,0 +1,23 @@
+EG_has_socialist_country = {
+	OR = {
+		has_idea = council_republic
+		has_idea = syndicalist_society
+		AND = {
+			OR = {
+				has_idea = state_trade_union
+				has_idea = industrial_relations_law
+			}
+			OR = {
+				has_government = socialism
+				has_government = bolsheviks
+			}
+		}
+	}
+}
+EG_has_ideological_opinion_modifier = {
+	OR = {
+		has_opinion_modifier = compatriot_republic
+		has_opinion_modifier = capitalist_oppressor
+		has_opinion_modifier = socialist_mob
+	}
+}
