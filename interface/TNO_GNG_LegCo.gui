@@ -71,7 +71,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "legco_title"
 			position = { x = 0 y = 35 }
-			font = "hoi_20b"
+			font = "hoi_36header"
 			text = KOR_gyeum
 			maxWidth = 920
 			format = center
@@ -90,8 +90,8 @@ guiTypes = {
 
 		buttonType = {
 			name = "TNO_KOR_legco_close_button"
-			position = { x = -320 y = 14 }
-			quadTextureSprite = "GFX_decision_category_SOV_support_the_poum"
+			position = { x = -50 y = 14 }
+			quadTextureSprite = "GFX_closebutton"
 			Orientation = "UPPER_RIGHT"
 			clicksound = click_close
 			shortcut = "ESCAPE"

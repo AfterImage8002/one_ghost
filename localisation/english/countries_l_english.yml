@@ -1,5 +1,12 @@
 ﻿ l_english:
+ MEN_CHI_autonomy_reichskommissariat:0 "네이멍구 자치구"
+ XIA_CHI_autonomy_reichskommissariat:0 "서북초비총부"
+ MEN_CHI_autonomy_reichskommissariat:0 "네이멍구 자치구"
+ GUI_CHI_autonomy_reichskommissariat:0 "광동정치위원회"
+ XIA_CHI_autonomy_puppet:0 "서북초비총부"
+ GUI_CHI_autonomy_puppet:0 "광동정치위원회"
  FER_USA_autonomy_supervised_state:0 "러시아 준주"
+ 
  TAN:0 "몽골인민혁명위원회"
  MON:0 "복드 칸국"
 
