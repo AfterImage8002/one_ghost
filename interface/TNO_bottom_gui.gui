@@ -3,7 +3,7 @@ guiTypes = {
 		name = "bottom_gui"
 		size = { width = 95 height = 95 }
 		position = { x = -83 y = -379 }
-		orientation = lower_right
+		orientation = lower_right 
 
 		background = {
 			name = "Background"
