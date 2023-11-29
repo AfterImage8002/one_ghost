@@ -50,4 +50,4 @@ dependencies={
 	"Korean Language"
 }
 name="Ein Gespenst"
-supported_version="1.12.*"
+supported_version="1.13.*"
