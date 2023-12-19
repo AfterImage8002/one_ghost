@@ -7,4 +7,12 @@ spriteTypes = {
 		name = "GFX_idea_PRC_li_lisan"
 		textureFile = "gfx/interface/advisor/PRC_li_lisan.tga"
 	}
+	spriteType = {
+		name = "GFX_portrait_PRC_Yang_Hucheng"
+		textureFile = "gfx/leaders/PRC/PRC_Yang_Hucheng.tga"
+	}
+	spriteType = {
+		name = "GFX_portrait_PRC_Huang_Shaoxiong"
+		textureFile = "gfx/leaders/PRC/PRC_Huang_Shaoxiong.tga"
+	}
 }

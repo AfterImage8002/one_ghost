@@ -5,13 +5,13 @@ oob = "SHX_1936"
 set_technology = {
 	infantry_weapons = 1
 }
-
+recruit_character = PRC_yan_xishan
 set_politics = {
-	ruling_party = authoritarianism
+	ruling_party = bolsheviks
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	authoritarianism = 100
+	bolsheviks = 100
 }

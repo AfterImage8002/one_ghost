@@ -5,11 +5,19 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = authoritarianism
+	ruling_party = bolsheviks
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	authoritarianism = 100
+	bolsheviks = 100
+}
+create_country_leader = {
+	name = Zhang_Lan_name
+	desc = "POLITICS_ZHANG_LAN_DESC"
+	picture = "GFX_portrait_prc_zhang_lan"
+	expire = "1965.1.1"
+	ideology = anti_revisionism
+	traits = { }
 }

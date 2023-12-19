@@ -14,15 +14,16 @@ set_technology = {
 	#early_destroyer = 1
 
 }
+recruit_character = PRC_Yang_Hucheng
 add_manpower = 50000
 add_war_support = 0.15
 add_stability = 0.25
 set_politics = {
-	ruling_party = authoritarianism
+	ruling_party = bolsheviks
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	authoritarianism = 100
+	bolsheviks = 100
 }

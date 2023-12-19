@@ -46,4 +46,61 @@ characters={
 			id=-1
 		}
 	}
+	PRC_Yang_Hucheng={
+		name=PRC_Yang_Hucheng
+		portraits={
+			army={
+				large="GFX_portrait_PRC_Yang_Hucheng"
+			}
+			civilian={
+				large="GFX_portrait_PRC_Yang_Hucheng"
+			}
+		}
+		field_marshal={
+			traits={  }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+		country_leader={
+			ideology=anti_revisionism
+			traits={  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PRC_yan_xishan={
+		name=SHX_yan_xishan
+		portraits={
+			civilian={
+				large="GFX_portrait_yan_xishan"
+			}
+			army={
+				small=GFX_portrait_SHX_yan_xishan_small
+				large="GFX_portrait_yan_xishan"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = SHX_yan_xishan
+			allowed = {
+				original_tag = SHX
+			}
+			traits = {
+				army_chief_morale_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		country_leader={
+			ideology=anti_revisionism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 }
