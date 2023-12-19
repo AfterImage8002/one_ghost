@@ -1,0 +1,32 @@
+characters={
+	KOR_soviet_civil_administration = {
+		name=KOR_soviet_civil_administration
+		portraits={
+			civilian={
+				large="gfx/leaders/KOR/KOR_Ivan_Mikhailovich_Chistyakov.tga"
+			}
+		}
+		country_leader={
+			ideology=military_government
+			traits={  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	KOR_CPKI = {
+		name=KOR_CPKI
+		portraits={
+			civilian={
+				large="gfx/leaders/KOR/KOR_CPKI.tga"
+			}
+		}
+	}
+	KOR_KimKoo = {
+		name=KOR_KimKoo
+		portraits={
+			civilian={
+				large="gfx/leaders/KOR/Portrait_KOR_Kim_Koo.tga"
+			}
+		}
+	}
+}

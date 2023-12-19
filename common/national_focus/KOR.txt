@@ -21,6 +21,15 @@ focus_tree = {
             ROOT = {
                 set_cosmetic_tag = KOR_nbp_committee
             }
+			add_country_leader_role = {
+				Character = KOR_CPKI
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = military_government
+					traits = {  }
+				}
+				promote_leader = yes
+			}
         }
     }
     focus = {
@@ -46,6 +55,15 @@ focus_tree = {
         mutually_exclusive = { focus = KOR_people_republic_of_korea }
         completion_reward = {
             set_cosmetic_tag = KOR_demo_state
+			add_country_leader_role = {
+				Character = KOR_KimKoo
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = military_government
+					traits = {  }
+				}
+				promote_leader = yes
+			}
         }
     }
     focus = {

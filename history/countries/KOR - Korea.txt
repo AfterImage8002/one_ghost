@@ -1,6 +1,8 @@
 ﻿capital = 525
 
-
+recruit_character = KOR_soviet_civil_administration
+recruit_character = KOR_CPKI
+recruit_character = KOR_KimKoo
 
 set_stability = 0.2 #baseline, THE EMPEROR PROTECTS
 set_war_support = 0.2
